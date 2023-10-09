@@ -69,6 +69,10 @@ const data = {
             name: 'WooCommerce',
             experience: 2,
         },
+        {
+            name: 'MySQL',
+            experience: 2,
+        },
     ],
     socials: [
         {
@@ -168,7 +172,7 @@ const data = {
         {
             period: ['2023', '2023'],
             workNow: false,
-            companyName: `'Lion Internal`,
+            companyName: `'Freelance Lion Internal`,
             position: `Front-end | WordPress Developer"`,
             description: `- Bug tracking and resolution on webpages.<br>
             - Configuration of the store's payment systems.<br>
