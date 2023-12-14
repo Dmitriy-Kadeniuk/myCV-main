@@ -30,7 +30,7 @@ const data = {
             experience: 1,
         },
         {
-            name: 'SASS/LESS',
+            name: 'SASS/LESS/SCSS',
             experience: 2,
         },
         {
@@ -50,11 +50,15 @@ const data = {
             experience: 2,
         },
         {
-            name: 'React',
-            experience: 0.5,
+            name: 'Jquery',
+            experience: 2,
         },
         {
-            name: 'Bottstrap',
+            name: 'Bootstrap 4/5',
+            experience: 2,
+        },
+        {
+            name: 'PHP',
             experience: 2,
         },
         {
@@ -73,6 +77,14 @@ const data = {
             name: 'MySQL',
             experience: 2,
         },
+        {
+            name: 'Elementor',
+            experience: 2,
+        },
+        {
+            name: 'JSON',
+            experience: 2,
+        },
     ],
     socials: [
         {
@@ -85,7 +97,7 @@ const data = {
         }
     ],
     position: [
-        'front-end developer',
+        'Front-end developer',
         'WordPress developer'
     ],
     education: {
@@ -134,10 +146,10 @@ const data = {
     ],
     interests: [
         'Football',
-        'developer trends',
+        'Developer trends',
         'Sport',
-        'programming',
-        'electronics',
+        'Programming',
+        'Electronics',
     ],
     messengers: [
         {
