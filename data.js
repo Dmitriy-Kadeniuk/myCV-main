@@ -217,6 +217,23 @@ const data = {
             - Creating animations using JS.<br>
             - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
         },
+        {
+            period: ['10.2023', '01.2024'],
+            workNow: false,
+            companyName: `'Onix Systems`,
+            position: `Front-end | WordPress Developer"`,
+            description: `
+            - Development of landing pages, online stores, and multi-page websites.<br>
+            - Bug fixing and troubleshooting.<br>
+            - WordPress development and customization.<br>
+            - WooCommerce development and customization.<br>
+            - Working with custom WordPress themes.<br>
+            - Creating themes from scratch.<br>
+            - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
+            - Creating animations using JS.<br>
+            - Enhancement of plugin functionality.<br>
+            - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
+        },
         
     ],
 
