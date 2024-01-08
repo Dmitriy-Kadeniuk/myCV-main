@@ -182,7 +182,7 @@ const data = {
             - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
         },
         {
-            period: ['2023', '2023'],
+            period: ['04.2023', '05.2023'],
             workNow: false,
             companyName: `'Freelance Lion Internal`,
             position: `Front-end | WordPress Developer"`,
@@ -194,7 +194,7 @@ const data = {
             - Expertise in WordPress and its plugins, including ACF and Contact Form 7.<br>`,
         },
         {
-            period: ['2023', '2023'],
+            period: ['05.2023', '06.2023'],
             workNow: false,
             companyName: `'Freelance DevOut Labs`,
             position: `Front-end | WordPress Developer"`,
