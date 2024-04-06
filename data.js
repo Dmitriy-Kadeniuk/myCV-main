@@ -1,17 +1,15 @@
 const currentDate = new Date()
 const data = {
-    age: '22',
-    photoPath: 'img/myPhoto.webp',
+    age: '23',
+    photoPath: 'img/my1.jpg',
     gender: 'male',
     name: {
         firstName: 'Dmitriy',
         lastName: 'Kadenyuk',
     },
     about: [
-        `So, a little about me. <br>`,
-        `First of all, I'm a cheerful person who loves to learn something new every day.`,
-        `I have over 2 years of experience in web development, so I'm ready to provide developer services in almost any direction.`,
-        `In this field, I'm actively advancing and continuously studying new materials to enhance my work.`,
+        `Hello, here's a bit of information about me. I've been working in the development field for 3 years now. I started as a frontend developer, then got acquainted with WordPress and worked with this technology for quite a long time, and I continue to work with it. Currently, I'm delving more into backend development, constantly evolving and exploring new technologies and opportunities in development. Apart from programming, I enjoy engaging in sports and playing various active games like football and volleyball. <br>`,
+
     ],
     phone: [
         '+380685359128',
@@ -19,71 +17,75 @@ const data = {
     skills: [
         {
             name: 'HTML',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'CSS',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'javaScript',
-            experience: 1,
+            experience: 3,
         },
         {
             name: 'SASS/LESS/SCSS',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'Photoshop (Ps)',
-            experience: 4,
+            experience: 5,
         },
         {
             name: 'Figma',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'Git',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'Wordpress',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'Jquery',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'Bootstrap 4/5',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'PHP',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'ACF',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'WPML',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'WooCommerce',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'MySQL',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'Elementor',
-            experience: 2,
+            experience: 3,
         },
         {
             name: 'JSON',
-            experience: 2,
+            experience: 3,
+        },
+        {
+            name: 'Docker',
+            experience: 1,
         },
     ],
     socials: [
@@ -97,7 +99,7 @@ const data = {
         }
     ],
     position: [
-        'Front-end developer',
+        'PHP developer',
         'WordPress developer'
     ],
     education: {
@@ -182,9 +184,9 @@ const data = {
             - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
         },
         {
-            period: ['04.2023', '05.2023'],
+            period: ['02.2023', '05.2023'],
             workNow: false,
-            companyName: `'Freelance Lion Internal`,
+            companyName: `'Lion Internal`,
             position: `Front-end | WordPress Developer"`,
             description: `- Bug tracking and resolution on webpages.<br>
             - Configuration of the store's payment systems.<br>
@@ -194,9 +196,9 @@ const data = {
             - Expertise in WordPress and its plugins, including ACF and Contact Form 7.<br>`,
         },
         {
-            period: ['05.2023', '06.2023'],
+            period: ['05.2023', '08.2023'],
             workNow: false,
-            companyName: `'Freelance DevOut Labs`,
+            companyName: `'DevOut Labs`,
             position: `Front-end | WordPress Developer"`,
             description: `-Development of a WordPress website, deploying it on a CMS using ACF Pro, Contact Form 7, and incorporating JS animations.<br>
             Ability to edit text fields and replace images.<br>
@@ -218,7 +220,7 @@ const data = {
             - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
         },
         {
-            period: ['10.2023', '01.2024'],
+            period: ['10.2023', '03.2024'],
             workNow: false,
             companyName: `'Onix Systems`,
             position: `Front-end | WordPress Developer"`,
