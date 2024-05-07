@@ -40,6 +40,10 @@ const data = {
             experience: 3,
         },
         {
+            name: 'Laravel',
+            experience: 0.6,
+        },
+        {
             name: 'Git',
             experience: 3,
         },
