@@ -7,6 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
         aside = d.querySelector('aside'),
         header = d.querySelector('header'),
         footer = d.querySelector('footer');
+        data.makeWork();
 
     /*Header*/
     header.querySelector('.head-name')
@@ -36,7 +37,7 @@ window.addEventListener('DOMContentLoaded', () => {
         .insertAdjacentHTML('beforeend', `${data.makeWorkExperience()}`);
     main.querySelector('.education')
         .insertAdjacentHTML('beforeend', `${data.makeEducation()}`);
-
+        
     /*Footer*/
     footer.querySelector('.socials')
         .insertAdjacentHTML('afterbegin', `${data.makeSocialLinks()}`);

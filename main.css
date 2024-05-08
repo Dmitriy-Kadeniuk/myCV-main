@@ -375,6 +375,54 @@ main section .education .eduItem h5 hr {
   width: 1px;
 }
 
+.myWork{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.single_work_block{
+  width: 100%;
+  max-width: 350px;
+  height: 250px;
+
+  position: relative;
+}
+.single_work_block img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  object-fit: cover;
+  transition: box-shadow 0.3s ease;
+}
+.single_work_block h3 {
+ transition: 1.5s;
+ color: #fff;
+  position: absolute;
+  opacity: 0;
+  bottom: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: rgba(8, 54, 8, 0.445);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.single_work_block:hover img {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+.single_work_block:hover h3 {
+  color: #fff;
+  position: absolute;
+  opacity: 1;
+  bottom: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: rgba(8, 54, 8, 0.897);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+
 footer {
   grid-area: footer;
   background: rgba(0, 0, 0, 0.9);

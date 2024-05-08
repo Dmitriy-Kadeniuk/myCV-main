@@ -242,6 +242,36 @@ const data = {
         },
         
     ],
+    work:[
+        {
+            nameWork: 'HipuiKir',
+            imageWork: 'img/hipuikir.jpg',
+            linkWork: 'https://www.hipuikir.com/',
+        },
+        {
+            nameWork: 'Maxim Cable',
+            imageWork: 'img/maximcable.jpg',
+            linkWork: 'https://maximmcable.com/',
+        },
+        {
+            nameWork: 'Remote Helpers',
+            imageWork: 'img/rhs.jpg',
+            linkWork: 'https://rhelpers.com/',
+        },
+        {
+            nameWork: 'Nutrion by Tanya',
+            imageWork: 'img/nutrion.jpg',
+            linkWork: 'https://nutritionbytanya.com/',
+        },
+        {
+            nameWork: 'Nibulon',
+            imageWork: 'img/nibulon.jpg',
+            linkWork: 'https://www.nibulon.com/',
+        },
+    ],
+
+
+
 
     makeMyStory() {
         return this.about ? `<h2>My short story</h2> <p>${this.about.map(item => `${item} `).join(' ')}</p>` : '';
@@ -313,4 +343,20 @@ const data = {
         eduRow += additional;
         return eduRow;
     },
+
+    makeWork(){
+  
+    let myWork = document.querySelector('.myWork');
+
+    myWork.innerHTML = this.work.map(function(item) {
+            return `<a href="${item.linkWork}">
+                        <div class="single_work_block">
+                        <h3>${item.nameWork}</h3>
+                        <img src="${item.imageWork}">
+                        </div>
+                    </a>`;
+        }).join('');
+    },
 }
+
+
