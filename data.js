@@ -173,43 +173,7 @@ const data = {
     ],
     experience: [
         {
-            period: ['2023', 'now'],
-            workNow: false,
-            companyName: `Remote Helpers"`,
-            position: `Front-end | WordPress Developer`,
-            description: `- Development of landing pages, online stores, and multi-page websites.<br>
-            - Bug fixing and troubleshooting.<br>
-            - WordPress development and customization.<br>
-            - WooCommerce development and customization.<br>
-            - Working with custom WordPress themes.<br>
-            - Creating themes from scratch.<br>
-            - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
-            - Creating animations using JS.<br>
-            - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
-        },
-        {
-            period: ['02.2023', '05.2023'],
-            workNow: false,
-            companyName: `'Lion Internal`,
-            position: `Front-end | WordPress Developer"`,
-            description: `- Bug tracking and resolution on webpages.<br>
-            - Configuration of the store's payment systems.<br>
-            - Implementation of new logic on websites.<br>
-            - Development of new webpages.<br>
-            - Proficiency in WooCommerce.<br>
-            - Expertise in WordPress and its plugins, including ACF and Contact Form 7.<br>`,
-        },
-        {
-            period: ['05.2023', '08.2023'],
-            workNow: false,
-            companyName: `'DevOut Labs`,
-            position: `Front-end | WordPress Developer"`,
-            description: `-Development of a WordPress website, deploying it on a CMS using ACF Pro, Contact Form 7, and incorporating JS animations.<br>
-            Ability to edit text fields and replace images.<br>
-            Customizable menu that can be modified in the admin panel.<br>`,
-        },
-        {
-            period: ['2023', '2023'],
+            period: ['2021', '2022'],
             workNow: false,
             companyName: `'Freelance on UpWork`,
             position: `Front-end | WordPress Developer"`,
@@ -224,7 +188,28 @@ const data = {
             - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
         },
         {
-            period: ['10.2023', '03.2024'],
+            period: ['01.2022', '04.2022'],
+            workNow: false,
+            companyName: `'Lion Internal`,
+            position: `Front-end | WordPress Developer"`,
+            description: `- Bug tracking and resolution on webpages.<br>
+            - Configuration of the store's payment systems.<br>
+            - Implementation of new logic on websites.<br>
+            - Development of new webpages.<br>
+            - Proficiency in WooCommerce.<br>
+            - Expertise in WordPress and its plugins, including ACF and Contact Form 7.<br>`,
+        },
+        {
+            period: ['04.2022', '08.2022'],
+            workNow: false,
+            companyName: `'DevOut Labs`,
+            position: `Front-end | WordPress Developer"`,
+            description: `-Development of a WordPress website, deploying it on a CMS using ACF Pro, Contact Form 7, and incorporating JS animations.<br>
+            Ability to edit text fields and replace images.<br>
+            Customizable menu that can be modified in the admin panel.<br>`,
+        },
+        {
+            period: ['09.2022', '02.2023'],
             workNow: false,
             companyName: `'Onix Systems`,
             position: `Front-end | WordPress Developer"`,
@@ -238,6 +223,21 @@ const data = {
             - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
             - Creating animations using JS.<br>
             - Enhancement of plugin functionality.<br>
+            - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
+        },
+        {
+            period: ['02.2023', 'now'],
+            workNow: false,
+            companyName: `Remote Helpers"`,
+            position: `Front-end | WordPress Developer`,
+            description: `- Development of landing pages, online stores, and multi-page websites.<br>
+            - Bug fixing and troubleshooting.<br>
+            - WordPress development and customization.<br>
+            - WooCommerce development and customization.<br>
+            - Working with custom WordPress themes.<br>
+            - Creating themes from scratch.<br>
+            - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
+            - Creating animations using JS.<br>
             - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
         },
         
