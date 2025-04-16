@@ -1,6 +1,6 @@
 const currentDate = new Date()
 const data = {
-    age: '23',
+    age: '24',
     photoPath: 'img/my1.jpg',
     gender: 'male',
     name: {
@@ -124,7 +124,7 @@ const data = {
                 name: `Ukrainian State University of Railway Transport`,
                 specialization: `Automation, computer-integrated technologies and robotics`,
                 qualification: `IT specialist`,
-                period: ['2023', 'now']
+                period: ['2023', '2025']
             },
         ],
         additional: [
@@ -226,10 +226,25 @@ const data = {
             - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
         },
         {
-            period: ['02.2023', 'now'],
+            period: ['02.2023', '08.2024'],
             workNow: false,
             companyName: `Remote Helpers"`,
             position: `Front-end | WordPress Developer`,
+            description: `- Development of landing pages, online stores, and multi-page websites.<br>
+            - Bug fixing and troubleshooting.<br>
+            - WordPress development and customization.<br>
+            - WooCommerce development and customization.<br>
+            - Working with custom WordPress themes.<br>
+            - Creating themes from scratch.<br>
+            - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
+            - Creating animations using JS.<br>
+            - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
+        },
+        {
+            period: ['08.2024', 'now'],
+            workNow: true,
+            companyName: `"OutSorce"`,
+            position: `Front-end | PHP | WordPress Developer`,
             description: `- Development of landing pages, online stores, and multi-page websites.<br>
             - Bug fixing and troubleshooting.<br>
             - WordPress development and customization.<br>
@@ -286,15 +301,15 @@ const data = {
     },
     makeLanguages() {
         return this.languages.map
-        (item => `<span class="lang-item">${item.name}<s>${item.level}</s></span>`).join('');
+        (item => `<span class="lang-item anim-item"><span>${item.name}<s>${item.level}</s></span></span>`).join('');
     },
     makeSkills() {
         return this.skills.map
-        (item => `<span class="skill-item">${item.name}<s>${item.experience.toString()}</s></span>`).join('');
+        (item => `<span class="skill-item anim-item"><span>${item.name}<s>${item.experience.toString()}</s></span></span>`).join('');
     },
     makeInterests() {
         return this.interests.map
-        (item => `<span class="hobby-item">${item}</span>`).join('');
+        (item => `<span class="hobby-item anim-item"><span>${item}</span></span>`).join('');
     },
     makeWorkExperience() {
         let experienceItems = '';
