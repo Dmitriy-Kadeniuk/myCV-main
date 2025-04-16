@@ -17,19 +17,19 @@ const data = {
     skills: [
         {
             name: 'HTML',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'CSS',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'javaScript',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'SASS/LESS/SCSS',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'Photoshop (Ps)',
@@ -37,7 +37,7 @@ const data = {
         },
         {
             name: 'Figma',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'Laravel',
@@ -45,11 +45,11 @@ const data = {
         },
         {
             name: 'Git',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'Wordpress',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'Jquery',
@@ -61,27 +61,27 @@ const data = {
         },
         {
             name: 'PHP',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'ACF',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'WPML',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'WooCommerce',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'MySQL',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'Elementor',
-            experience: 3,
+            experience: 5,
         },
         {
             name: 'JSON',
@@ -282,6 +282,21 @@ const data = {
             nameWork: 'Nibulon',
             imageWork: 'img/nibulon.jpg',
             linkWork: 'https://www.nibulon.com/',
+        },
+        {
+            nameWork: 'Nl life',
+            imageWork: 'img/nl_life.jpg',
+            linkWork: 'https://nl.life/',
+        },
+        {
+            nameWork: 'XYZ Business',
+            imageWork: 'img/xyz.jpg',
+            linkWork: 'https://xyzbusiness-services.com/',
+        },
+        {
+            nameWork: 'OutSoft',
+            imageWork: 'img/outsoft.jpg',
+            linkWork: 'https://outsoft.eu/',
         },
     ],
 
