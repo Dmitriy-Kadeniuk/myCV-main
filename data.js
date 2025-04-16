@@ -243,7 +243,7 @@ const data = {
         {
             period: ['08.2024', 'now'],
             workNow: true,
-            companyName: `"OutSorce"`,
+            companyName: `OutSoft`,
             position: `Front-end | PHP | WordPress Developer`,
             description: `- Development of landing pages, online stores, and multi-page websites.<br>
             - Bug fixing and troubleshooting.<br>
