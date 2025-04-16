@@ -28,7 +28,7 @@ html::-webkit-scrollbar-track {
 /*separate styles*/
 body {
   background-image: url('img/istockphoto-1277748423-640x640.jpg');
-  background-color: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   display: grid;
   transition: all 0.2s ease;
