@@ -75,7 +75,9 @@ header section h1 {
 header section .g-info {
   display: flex;
   row-gap: 0.5rem;
-  flex-flow: column;
+  flex-flow: row-reverse;
+  gap: 10px;
+  align-items: center;
 }
 header section .g-info h4 {
   display: flex;
@@ -164,6 +166,12 @@ aside section .info .contact-items a {
   align-items: center;
   text-decoration: none;
   justify-content: center;
+  background-color: #fff;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 45px;
 }
 aside section .skill-section .skill-tags,
 aside section .skill-section .lang-tags,
@@ -527,4 +535,14 @@ footer section .socials a {
       transform: translateX(-50%)
   }
 }
+.pdf_button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.pdf_button img{
+  width: 100%;
+  max-width: 25px;
+}
+
 /*# sourceMappingURL=main.css.map */

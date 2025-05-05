@@ -37,6 +37,12 @@ window.addEventListener('DOMContentLoaded', () => {
         .insertAdjacentHTML('beforeend', `${data.makeWorkExperience()}`);
     main.querySelector('.education')
         .insertAdjacentHTML('beforeend', `${data.makeEducation()}`);
+
+        PdfButton = document.querySelector('.pdf_button');
+        PdfButton.addEventListener('click', () => {
+          window.print();
+        });
+        
         
     /*Footer*/
     footer.querySelector('.socials')
