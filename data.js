@@ -8,7 +8,26 @@ const data = {
         lastName: 'Kadenyuk',
     },
     about: [
-        `Hello, here's a bit of information about me. I've been working in the development field for 3 years now. I started as a frontend developer, then got acquainted with WordPress and worked with this technology for quite a long time, and I continue to work with it. Currently, I'm delving more into backend development, constantly evolving and exploring new technologies and opportunities in development. Apart from programming, I enjoy engaging in sports and playing various active games like football and volleyball. <br>`,
+        `Hello, thank you for your attention!<br>
+My name is Dmitriy, and I am a PHP/WordPress developer. I primarily specialize in backend development but also have solid experience working with the frontend part of websites.<br>
+
+I have around 5 years of commercial experience during which I have been involved in:<br>
+
+1.Developing and customizing WordPress websites using custom themes and popular plugins such as ACF, Contact Form 7, Polylang, and Elementor.<br>
+
+2.Creating tailored WooCommerce solutions for specific business needs.<br>
+
+3.Efficient bug fixing and functionality debugging.<br>
+
+4.Implementing animations and interactive elements using JavaScript to enhance visual appeal and user engagement.<br>
+
+5.Continuously updating my knowledge and staying current with the latest trends in web development.<br>
+
+6.Effective communication with clients and team members.<br>
+
+7.Improving website cybersecurity.<br>
+
+I offer services for both landing pages and multi-page websites.<br>`,
 
     ],
     phone: [
