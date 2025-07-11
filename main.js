@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
         aside = d.querySelector('aside'),
         header = d.querySelector('header'),
         footer = d.querySelector('footer');
-        data.makeWork();
+    data.makeWork();
 
     /*Header*/
     header.querySelector('.head-name')
@@ -33,17 +33,28 @@ window.addEventListener('DOMContentLoaded', () => {
     /*Main*/
     main.querySelector('.myStory')
         .insertAdjacentHTML('beforeend', `${data.makeMyStory()}`);
-    main.querySelector('.experience')
-        .insertAdjacentHTML('beforeend', `${data.makeWorkExperience()}`);
+    const experienceContainer = main.querySelector('.job-items');
+    experienceContainer.innerHTML = '';
+
+    data.experience.forEach((job) => {
+        const jobHTML = `
+    <div class="job-item">
+      <h4>${job.companyName} <span>${job.period.join(' - ')}</span></h4>
+      <h5>${job.position}</h5>
+      <p>${job.description}</p>
+    </div>
+  `;
+        experienceContainer.insertAdjacentHTML('beforeend', jobHTML);
+    });
     main.querySelector('.education')
         .insertAdjacentHTML('beforeend', `${data.makeEducation()}`);
 
-        PdfButton = document.querySelector('.pdf_button');
-        PdfButton.addEventListener('click', () => {
-          window.print();
-        });
-        
-        
+    PdfButton = document.querySelector('.pdf_button');
+    PdfButton.addEventListener('click', () => {
+        window.print();
+    });
+
+
     /*Footer*/
     footer.querySelector('.socials')
         .insertAdjacentHTML('afterbegin', `${data.makeSocialLinks()}`);

@@ -152,7 +152,7 @@ I offer services for both landing pages and multi-page websites.<br>`,
                 period: ['2020', '2021'],
                 certification: 'Solo learn',
             },
-            
+
         ],
     },
     languages: [
@@ -192,57 +192,19 @@ I offer services for both landing pages and multi-page websites.<br>`,
     ],
     experience: [
         {
-            period: ['2021', '2022'],
-            workNow: false,
-            companyName: `'Freelance on UpWork`,
-            position: `Front-end | WordPress Developer"`,
+            period: ['08.2024', 'now'],
+            workNow: true,
+            companyName: `OutSoft`,
+            position: `Front-end | PHP | WordPress Developer`,
             description: `- Development of landing pages, online stores, and multi-page websites.<br>
-            - Bug fixing and troubleshooting.<br>
-            - WordPress development and customization.<br>
-            - WooCommerce development and customization.<br>
-            - Working with custom WordPress themes.<br>
-            - Creating themes from scratch.<br>
-            - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
-            - Creating animations using JS.<br>
-            - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
-        },
-        {
-            period: ['01.2022', '04.2022'],
-            workNow: false,
-            companyName: `'Lion Internal`,
-            position: `Front-end | WordPress Developer"`,
-            description: `- Bug tracking and resolution on webpages.<br>
-            - Configuration of the store's payment systems.<br>
-            - Implementation of new logic on websites.<br>
-            - Development of new webpages.<br>
-            - Proficiency in WooCommerce.<br>
-            - Expertise in WordPress and its plugins, including ACF and Contact Form 7.<br>`,
-        },
-        {
-            period: ['04.2022', '08.2022'],
-            workNow: false,
-            companyName: `'DevOut Labs`,
-            position: `Front-end | WordPress Developer"`,
-            description: `-Development of a WordPress website, deploying it on a CMS using ACF Pro, Contact Form 7, and incorporating JS animations.<br>
-            Ability to edit text fields and replace images.<br>
-            Customizable menu that can be modified in the admin panel.<br>`,
-        },
-        {
-            period: ['09.2022', '02.2023'],
-            workNow: false,
-            companyName: `'Onix Systems`,
-            position: `Front-end | WordPress Developer"`,
-            description: `
-            - Development of landing pages, online stores, and multi-page websites.<br>
-            - Bug fixing and troubleshooting.<br>
-            - WordPress development and customization.<br>
-            - WooCommerce development and customization.<br>
-            - Working with custom WordPress themes.<br>
-            - Creating themes from scratch.<br>
-            - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
-            - Creating animations using JS.<br>
-            - Enhancement of plugin functionality.<br>
-            - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
+        - Bug fixing and troubleshooting.<br>
+        - WordPress development and customization.<br>
+        - WooCommerce development and customization.<br>
+        - Working with custom WordPress themes.<br>
+        - Creating themes from scratch.<br>
+        - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
+        - Creating animations using JS.<br>
+        - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
         },
         {
             period: ['02.2023', '08.2024'],
@@ -250,33 +212,70 @@ I offer services for both landing pages and multi-page websites.<br>`,
             companyName: `Remote Helpers"`,
             position: `Front-end | WordPress Developer`,
             description: `- Development of landing pages, online stores, and multi-page websites.<br>
-            - Bug fixing and troubleshooting.<br>
-            - WordPress development and customization.<br>
-            - WooCommerce development and customization.<br>
-            - Working with custom WordPress themes.<br>
-            - Creating themes from scratch.<br>
-            - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
-            - Creating animations using JS.<br>
-            - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
+        - Bug fixing and troubleshooting.<br>
+        - WordPress development and customization.<br>
+        - WooCommerce development and customization.<br>
+        - Working with custom WordPress themes.<br>
+        - Creating themes from scratch.<br>
+        - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
+        - Creating animations using JS.<br>
+        - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
         },
         {
-            period: ['08.2024', 'now'],
-            workNow: true,
-            companyName: `OutSoft`,
-            position: `Front-end | PHP | WordPress Developer`,
-            description: `- Development of landing pages, online stores, and multi-page websites.<br>
-            - Bug fixing and troubleshooting.<br>
-            - WordPress development and customization.<br>
-            - WooCommerce development and customization.<br>
-            - Working with custom WordPress themes.<br>
-            - Creating themes from scratch.<br>
-            - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
-            - Creating animations using JS.<br>
-            - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
+            period: ['09.2022', '02.2023'],
+            workNow: false,
+            companyName: `'Onix Systems`,
+            position: `Front-end | WordPress Developer"`,
+            description: `
+        - Development of landing pages, online stores, and multi-page websites.<br>
+        - Bug fixing and troubleshooting.<br>
+        - WordPress development and customization.<br>
+        - WooCommerce development and customization.<br>
+        - Working with custom WordPress themes.<br>
+        - Creating themes from scratch.<br>
+        - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
+        - Creating animations using JS.<br>
+        - Enhancement of plugin functionality.<br>
+        - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
         },
-        
+        {
+            period: ['04.2022', '08.2022'],
+            workNow: false,
+            companyName: `'DevOut Labs`,
+            position: `Front-end | WordPress Developer"`,
+            description: `-Development of a WordPress website, deploying it on a CMS using ACF Pro, Contact Form 7, and incorporating JS animations.<br>
+        Ability to edit text fields and replace images.<br>
+        Customizable menu that can be modified in the admin panel.<br>`,
+        },
+        {
+            period: ['01.2022', '04.2022'],
+            workNow: false,
+            companyName: `'Lion Internal`,
+            position: `Front-end | WordPress Developer"`,
+            description: `- Bug tracking and resolution on webpages.<br>
+        - Configuration of the store's payment systems.<br>
+        - Implementation of new logic on websites.<br>
+        - Development of new webpages.<br>
+        - Proficiency in WooCommerce.<br>
+        - Expertise in WordPress and its plugins, including ACF and Contact Form 7.<br>`,
+        },
+        {
+            period: ['2021', '2022'],
+            workNow: false,
+            companyName: `'Freelance on UpWork`,
+            position: `Front-end | WordPress Developer"`,
+            description: `- Development of landing pages, online stores, and multi-page websites.<br>
+        - Bug fixing and troubleshooting.<br>
+        - WordPress development and customization.<br>
+        - WooCommerce development and customization.<br>
+        - Working with custom WordPress themes.<br>
+        - Creating themes from scratch.<br>
+        - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
+        - Creating animations using JS.<br>
+        - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
+        },
     ],
-    work:[
+    work: [
         {
             nameWork: 'HipuiKir',
             imageWork: 'img/hipuikir.jpg',
@@ -327,23 +326,23 @@ I offer services for both landing pages and multi-page websites.<br>`,
     },
     makeContacts() {
         return this.messengers.map
-        (item => `<a href="${item.href}"><i class="${item.iconClass}"></i></a>`).join('');
+            (item => `<a href="${item.href}"><i class="${item.iconClass}"></i></a>`).join('');
     },
     makeSocialLinks() {
         return this.socials.map
-        (item => `<a href="${item.href}"><i class="${item.iconClass}"></i></a>`).join('');
+            (item => `<a href="${item.href}"><i class="${item.iconClass}"></i></a>`).join('');
     },
     makeLanguages() {
         return this.languages.map
-        (item => `<span class="lang-item anim-item"><span>${item.name}<s>${item.level}</s></span></span>`).join('');
+            (item => `<span class="lang-item anim-item"><span>${item.name}<s>${item.level}</s></span></span>`).join('');
     },
     makeSkills() {
         return this.skills.map
-        (item => `<span class="skill-item anim-item"><span>${item.name}<s>${item.experience.toString()}</s></span></span>`).join('');
+            (item => `<span class="skill-item anim-item"><span>${item.name}<s>${item.experience.toString()}</s></span></span>`).join('');
     },
     makeInterests() {
         return this.interests.map
-        (item => `<span class="hobby-item anim-item"><span>${item}</span></span>`).join('');
+            (item => `<span class="hobby-item anim-item"><span>${item}</span></span>`).join('');
     },
     makeWorkExperience() {
         let experienceItems = '';
@@ -388,16 +387,16 @@ I offer services for both landing pages and multi-page websites.<br>`,
                     <h5><span>Certification:</span> ${item.certification}</h5>
                 </div>`).join('')}`
             : ``
-        }`
+            }`
         eduRow += additional;
         return eduRow;
     },
 
-    makeWork(){
-  
-    let myWork = document.querySelector('.myWork');
+    makeWork() {
 
-    myWork.innerHTML = this.work.map(function(item) {
+        let myWork = document.querySelector('.myWork');
+
+        myWork.innerHTML = this.work.map(function (item) {
             return `<a href="${item.linkWork}">
                         <div class="single_work_block">
                         <h3>${item.nameWork}</h3>
