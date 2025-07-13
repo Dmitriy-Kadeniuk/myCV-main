@@ -27,21 +27,32 @@ html::-webkit-scrollbar-track {
 
 /*separate styles*/
 body {
-  background-image: url("../img/istockphoto-1277748423-640x640.jpg");
+  background-image: url("/assets/img/istockphoto-1277748423-640x640.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
   transition: all 0.2s ease;
   grid-template: "header header header" "aside main main" "footer footer footer"/1fr 1fr 1fr;
 }
+@media screen and (max-width: 980px) {
+  body {
+    display: block;
+  }
+}
 
 /*Paddings & container general*/
-header, footer, aside, main {
+header,
+footer,
+aside,
+main {
   padding: 0 var(--global-padding);
   background: var(--main-bg);
   backdrop-filter: blur(1rem) saturate(150%);
 }
-header section, footer section, aside section, main section {
+header section,
+footer section,
+aside section,
+main section {
   padding: 2rem 0;
   display: flex;
   width: 100%;
@@ -83,7 +94,7 @@ header section .g-info h4 {
   display: flex;
   flex-flow: row wrap;
   column-gap: 0.62rem;
-  color: #2196F3;
+  color: #2196f3;
 }
 header section .g-info h4 span {
   width: max-content;
@@ -107,7 +118,9 @@ aside section {
   height: max-content;
   flex-flow: column nowrap;
 }
-aside section .skill-section h3, aside section .lang_section h3, aside section .interests-section h3 {
+aside section .skill-section h3,
+aside section .lang_section h3,
+aside section .interests-section h3 {
   display: flex;
   padding: 0 0 0 0;
   text-transform: uppercase;
@@ -171,13 +184,23 @@ aside section .info .contact-items a {
 aside section .info .contact-items a:hover {
   background-color: #e2e3e4;
 }
-aside section .skill-section .skill-tags, aside section .skill-section .lang-tags, aside section .lang_section .skill-tags, aside section .lang_section .lang-tags {
+aside section .skill-section .skill-tags,
+aside section .skill-section .lang-tags,
+aside section .lang_section .skill-tags,
+aside section .lang_section .lang-tags {
   gap: 0.5rem;
   display: flex;
   padding: 1rem 0;
   flex-flow: row wrap;
 }
-aside section .skill-section .skill-tags .skill-item, aside section .skill-section .skill-tags .lang-item, aside section .skill-section .lang-tags .skill-item, aside section .skill-section .lang-tags .lang-item, aside section .lang_section .skill-tags .skill-item, aside section .lang_section .skill-tags .lang-item, aside section .lang_section .lang-tags .skill-item, aside section .lang_section .lang-tags .lang-item {
+aside section .skill-section .skill-tags .skill-item,
+aside section .skill-section .skill-tags .lang-item,
+aside section .skill-section .lang-tags .skill-item,
+aside section .skill-section .lang-tags .lang-item,
+aside section .lang_section .skill-tags .skill-item,
+aside section .lang_section .skill-tags .lang-item,
+aside section .lang_section .lang-tags .skill-item,
+aside section .lang_section .lang-tags .lang-item {
   color: #1976d2;
   display: flex;
   line-height: 1;
@@ -197,7 +220,14 @@ aside section .skill-section .skill-tags .skill-item, aside section .skill-secti
   font-weight: 400;
   font-family: "Fira Sans Condensed", sans-serif;
 }
-aside section .skill-section .skill-tags .skill-item s, aside section .skill-section .skill-tags .lang-item s, aside section .skill-section .lang-tags .skill-item s, aside section .skill-section .lang-tags .lang-item s, aside section .lang_section .skill-tags .skill-item s, aside section .lang_section .skill-tags .lang-item s, aside section .lang_section .lang-tags .skill-item s, aside section .lang_section .lang-tags .lang-item s {
+aside section .skill-section .skill-tags .skill-item s,
+aside section .skill-section .skill-tags .lang-item s,
+aside section .skill-section .lang-tags .skill-item s,
+aside section .skill-section .lang-tags .lang-item s,
+aside section .lang_section .skill-tags .skill-item s,
+aside section .lang_section .skill-tags .lang-item s,
+aside section .lang_section .lang-tags .skill-item s,
+aside section .lang_section .lang-tags .lang-item s {
   color: #424242;
   display: inherit;
   font-size: 0.75rem;
@@ -208,21 +238,48 @@ aside section .skill-section .skill-tags .skill-item s, aside section .skill-sec
   justify-content: center;
   transition: 0.3s;
 }
-aside section .skill-section .skill-tags .skill-item s:after, aside section .skill-section .skill-tags .lang-item s:after, aside section .skill-section .lang-tags .skill-item s:after, aside section .skill-section .lang-tags .lang-item s:after, aside section .lang_section .skill-tags .skill-item s:after, aside section .lang_section .skill-tags .lang-item s:after, aside section .lang_section .lang-tags .skill-item s:after, aside section .lang_section .lang-tags .lang-item s:after {
+aside section .skill-section .skill-tags .skill-item s:after,
+aside section .skill-section .skill-tags .lang-item s:after,
+aside section .skill-section .lang-tags .skill-item s:after,
+aside section .skill-section .lang-tags .lang-item s:after,
+aside section .lang_section .skill-tags .skill-item s:after,
+aside section .lang_section .skill-tags .lang-item s:after,
+aside section .lang_section .lang-tags .skill-item s:after,
+aside section .lang_section .lang-tags .lang-item s:after {
   content: "y";
 }
-aside section .skill-section .skill-tags .skill-item:hover, aside section .skill-section .skill-tags .lang-item:hover, aside section .skill-section .lang-tags .skill-item:hover, aside section .skill-section .lang-tags .lang-item:hover, aside section .lang_section .skill-tags .skill-item:hover, aside section .lang_section .skill-tags .lang-item:hover, aside section .lang_section .lang-tags .skill-item:hover, aside section .lang_section .lang-tags .lang-item:hover {
+aside section .skill-section .skill-tags .skill-item:hover,
+aside section .skill-section .skill-tags .lang-item:hover,
+aside section .skill-section .lang-tags .skill-item:hover,
+aside section .skill-section .lang-tags .lang-item:hover,
+aside section .lang_section .skill-tags .skill-item:hover,
+aside section .lang_section .skill-tags .lang-item:hover,
+aside section .lang_section .lang-tags .skill-item:hover,
+aside section .lang_section .lang-tags .lang-item:hover {
   box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.08);
 }
-aside section .skill-section .skill-tags .skill-item:hover s, aside section .skill-section .skill-tags .lang-item:hover s, aside section .skill-section .lang-tags .skill-item:hover s, aside section .skill-section .lang-tags .lang-item:hover s, aside section .lang_section .skill-tags .skill-item:hover s, aside section .lang_section .skill-tags .lang-item:hover s, aside section .lang_section .lang-tags .skill-item:hover s, aside section .lang_section .lang-tags .lang-item:hover s {
+aside section .skill-section .skill-tags .skill-item:hover s,
+aside section .skill-section .skill-tags .lang-item:hover s,
+aside section .skill-section .lang-tags .skill-item:hover s,
+aside section .skill-section .lang-tags .lang-item:hover s,
+aside section .lang_section .skill-tags .skill-item:hover s,
+aside section .lang_section .skill-tags .lang-item:hover s,
+aside section .lang_section .lang-tags .skill-item:hover s,
+aside section .lang_section .lang-tags .lang-item:hover s {
   color: #aaa;
   transition: 0.3s ease;
 }
-aside section .skill-section .skill-tags .lang-item s, aside section .skill-section .lang-tags .lang-item s, aside section .lang_section .skill-tags .lang-item s, aside section .lang_section .lang-tags .lang-item s {
+aside section .skill-section .skill-tags .lang-item s,
+aside section .skill-section .lang-tags .lang-item s,
+aside section .lang_section .skill-tags .lang-item s,
+aside section .lang_section .lang-tags .lang-item s {
   line-height: 1;
   transition: 0.3s ease;
 }
-aside section .skill-section .skill-tags .lang-item s:after, aside section .skill-section .lang-tags .lang-item s:after, aside section .lang_section .skill-tags .lang-item s:after, aside section .lang_section .lang-tags .lang-item s:after {
+aside section .skill-section .skill-tags .lang-item s:after,
+aside section .skill-section .lang-tags .lang-item s:after,
+aside section .lang_section .skill-tags .lang-item s:after,
+aside section .lang_section .lang-tags .lang-item s:after {
   content: "";
 }
 aside section .interests-section .hobby-tags {
@@ -263,22 +320,30 @@ main {
 main section {
   flex-flow: column nowrap;
 }
-main section .myStory, main section .experience, main section .education {
+main section .myStory,
+main section .experience,
+main section .education {
   color: #f1f1f1;
   padding: 0 0 1.5rem 0;
 }
-main section .myStory h2, main section .experience h2, main section .education h2 {
+main section .myStory h2,
+main section .experience h2,
+main section .education h2 {
   color: #bbbbbb;
   text-transform: uppercase;
   padding: 1rem 0;
 }
-main section .myStory h4, main section .experience h4, main section .education h4 {
+main section .myStory h4,
+main section .experience h4,
+main section .education h4 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   line-height: 1.5;
 }
-main section .myStory h4 span, main section .experience h4 span, main section .education h4 span {
+main section .myStory h4 span,
+main section .experience h4 span,
+main section .education h4 span {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.3rem 1rem;
   border-radius: 1rem;
@@ -289,14 +354,18 @@ main section .myStory h4 span, main section .experience h4 span, main section .e
   line-height: 1.2;
   min-width: max-content;
 }
-main section .myStory h5, main section .experience h5, main section .education h5 {
+main section .myStory h5,
+main section .experience h5,
+main section .education h5 {
   font-style: oblique;
   padding: 0.3rem 0;
-  color: #B0BEC5;
+  color: #b0bec5;
 }
-main section .myStory p, main section .experience p, main section .education p {
+main section .myStory p,
+main section .experience p,
+main section .education p {
   line-height: 1.5;
-  color: #90A4AE;
+  color: #90a4ae;
 }
 main section .experience p {
   padding: 0.2rem 0 1rem 0;
@@ -305,10 +374,9 @@ main section .experience p {
 main section .education {
   display: flex;
   flex-flow: column nowrap;
-  gap: 1rem;
 }
 main section .education h3 {
-  color: #B0BEC5;
+  color: #b0bec5;
 }
 main section .education .eduItem {
   color: #f1f1f1;
@@ -429,8 +497,8 @@ footer section .socials a {
   color: #d12bd1;
 }
 
-.fa-whatsapp {
-  color: #14bd14;
+.fa-linkedin {
+  color: #0a66c2;
 }
 
 .anim-item {
@@ -487,4 +555,127 @@ footer section .socials a {
 .pdf_button img {
   width: 100%;
   max-width: 25px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.accordion .accordion-item {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  background: rgba(242, 242, 242, 0.12);
+  backdrop-filter: blur(10px);
+  transition: 0.5s ease;
+}
+.accordion .accordion-item.open {
+  background: rgba(42, 44, 63, 0.88);
+}
+.accordion .accordion-item.open .accordion-item-description-wrapper {
+  grid-template-rows: 1fr;
+}
+.accordion .accordion-item.open .accordion-item-description-wrapper hr {
+  visibility: visible;
+  margin-bottom: 20px;
+}
+.accordion .accordion-item.open .accordion-item-description-wrapper .accordion-item-header-icon {
+  transform: rotate(-180deg);
+}
+.accordion .accordion-item.open .accordion-item-header .steps-select__image {
+  border: 1px solid #9e7b50;
+  background: transparent;
+  backdrop-filter: none;
+}
+.accordion .accordion-item.open .accordion-item-header .steps-select__image .steps-select__image-inner {
+  background: rgba(158, 123, 80, 0.24);
+  border-radius: 34.667px;
+}
+.accordion .accordion-item.open .accordion-item-header .steps-select__image .steps-select__image-inner img {
+  filter: brightness(0) saturate(100%) invert(49%) sepia(14%) saturate(1460%) hue-rotate(355deg) brightness(95%) contrast(85%);
+}
+.accordion .accordion-item.open .accordion-item-header .body_4 {
+  font-weight: 500;
+  color: rgba(158, 123, 80, 0.8);
+}
+.accordion .accordion-item.open .accordion-item-header .h6 {
+  color: #9e7b50;
+}
+.accordion .accordion-item.open .accordion-item-header .accordion-item-header-icon {
+  transition: all 0.2s ease;
+}
+.accordion .accordion-item .accordion-item-header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+}
+.accordion .accordion-item .accordion-item-header .steps-select__image {
+  width: 52px;
+  height: 52px;
+  border-radius: 34.667px;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(242, 242, 242, 0.12);
+  backdrop-filter: blur(3px);
+}
+.accordion .accordion-item .accordion-item-header .steps-select__image .steps-select__image-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transition: 0.5s ease;
+}
+.accordion .accordion-item .accordion-item-header .body_4 {
+  font-weight: 500;
+  color: rgba(242, 242, 242, 0.8);
+  transition: 0.5s ease;
+}
+.accordion .accordion-item .accordion-item-header .h6 {
+  color: #f2f2f2;
+  transition: 0.5s ease;
+}
+.accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
+  transition: all 0.2s ease;
+}
+.accordion .accordion-item .accordion-item-description-wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.accordion .accordion-item .accordion-item-description-wrapper hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  visibility: visible;
+}
+.accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description {
+  min-height: 0;
+}
+.accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description .body_2 {
+  color: #2a3b4f;
+}
+.accordion .accordion-container:not(:first-child) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.accordion .accordion-container:not(:first-child)::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 16px;
+  background-color: rgba(242, 242, 242, 0.8);
+  margin: 4px 0px 4px 0px;
 }/*# sourceMappingURL=main.css.map */

@@ -31,7 +31,7 @@ window.addEventListener('DOMContentLoaded', () => {
         .insertAdjacentHTML('afterbegin', `${data.makeContacts()}`);
 
     /*Main*/
-    main.querySelector('.myStory')
+    main.querySelector('.myStory .accordion-item-description')
         .insertAdjacentHTML('beforeend', `${data.makeMyStory()}`);
     const experienceContainer = main.querySelector('.job-items');
     experienceContainer.innerHTML = '';
@@ -46,7 +46,7 @@ window.addEventListener('DOMContentLoaded', () => {
   `;
         experienceContainer.insertAdjacentHTML('beforeend', jobHTML);
     });
-    main.querySelector('.education')
+    main.querySelector('.education .accordion-item-description')
         .insertAdjacentHTML('beforeend', `${data.makeEducation()}`);
 
     PdfButton = document.querySelector('.pdf_button');

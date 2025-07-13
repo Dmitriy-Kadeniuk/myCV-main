@@ -1,7 +1,7 @@
 const currentDate = new Date()
 const data = {
     age: '24',
-    photoPath: 'img/my1.jpg',
+    photoPath: 'assets/img/my1.jpg',
     gender: 'male',
     name: {
         firstName: 'Dmitriy',
@@ -187,7 +187,7 @@ I offer services for both landing pages and multi-page websites.<br>`,
         },
         {
             href: `https://wa.me/+3800685359128`,
-            iconClass: 'fab fa-whatsapp',
+            iconClass: 'fab fa-linkedin',
         },
     ],
     experience: [
@@ -278,42 +278,42 @@ I offer services for both landing pages and multi-page websites.<br>`,
     work: [
         {
             nameWork: 'HipuiKir',
-            imageWork: 'img/hipuikir.jpg',
+            imageWork: 'assets/img/hipuikir.jpg',
             linkWork: 'https://www.hipuikir.com/',
         },
         {
             nameWork: 'Maxim Cable',
-            imageWork: 'img/maximcable.jpg',
+            imageWork: 'assets/img/maximcable.jpg',
             linkWork: 'https://maximmcable.com/',
         },
         {
             nameWork: 'Remote Helpers',
-            imageWork: 'img/rhs.jpg',
+            imageWork: 'assets/img/rhs.jpg',
             linkWork: 'https://rhelpers.com/',
         },
         {
             nameWork: 'Nutrion by Tanya',
-            imageWork: 'img/nutrion.jpg',
+            imageWork: 'assets/img/nutrion.jpg',
             linkWork: 'https://nutritionbytanya.com/',
         },
         {
             nameWork: 'Nibulon',
-            imageWork: 'img/nibulon.jpg',
+            imageWork: 'assets/img/nibulon.jpg',
             linkWork: 'https://www.nibulon.com/',
         },
         {
             nameWork: 'Nl life',
-            imageWork: 'img/nl_life.jpg',
+            imageWork: 'assets/img/nl_life.jpg',
             linkWork: 'https://nl.life/',
         },
         {
             nameWork: 'XYZ Business',
-            imageWork: 'img/xyz.jpg',
+            imageWork: 'assets/img/xyz.jpg',
             linkWork: 'https://xyzbusiness-services.com/',
         },
         {
             nameWork: 'OutSoft',
-            imageWork: 'img/outsoft.jpg',
+            imageWork: 'assets/img/outsoft.jpg',
             linkWork: 'https://outsoft.eu/',
         },
     ],
@@ -322,7 +322,7 @@ I offer services for both landing pages and multi-page websites.<br>`,
 
 
     makeMyStory() {
-        return this.about ? `<h2>My short story</h2> <p>${this.about.map(item => `${item} `).join(' ')}</p>` : '';
+        return this.about ? ` <p>${this.about.map(item => `${item} `).join(' ')}</p>` : '';
     },
     makeContacts() {
         return this.messengers.map

@@ -1,82 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>myCV</title>
     <link rel="icon" href="#">
     <meta name='freelancehunt' content='da6f373e3112766'>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/style/css/main.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
-          integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+        integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
-          integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
-    <script src="data.js"></script>
+        integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+    <script src="assets/js/data.js"></script>
 </head>
+
 <body>
-<header>
-    <section>
-        <h1 class="head-name">
-        </h1>
-        <div class="g-info">
+    <header>
+        <section>
+            <h1 class="head-name">
+            </h1>
+            <div class="g-info">
 
-            <button class="pdf_button"><img src="img/free-icon-printer-8188145.png" alt=""></button>
-        </div>
-    </section>
-</header>
-<aside>
-    <section>
-        <div class="main-info">
-            <div class="photo">
+                <button class="pdf_button"><img src="assets/img/free-icon-printer-8188145.png" alt=""></button>
             </div>
-        </div>
-        <div class="info">
-            <div class="contact-items">
+        </section>
+    </header>
+    <aside>
+        <section>
+            <div class="main-info">
+                <div class="photo">
+                </div>
             </div>
-        </div>
-        <div class="lang_section">
-            <h3>Languages</h3>
-        </div>
-        <div class="skill-section">
-            <h3>Skills & tools</h3>
-            <div class="skill-tags">
+            <div class="info">
+                <div class="contact-items">
+                </div>
             </div>
-        </div>
-        <div class="interests-section">
-            <h3>Hobbies & interests</h3>
-            <div class="hobby-tags">
+            <div class="lang_section">
+                <h3>Languages</h3>
             </div>
-        </div>
-    </section>
-</aside>
-<main>
-    <section>
-        <div class="myStory">
-        </div>
-        <div class="experience">
-            <h2>work experience</h2>
-            <div class="job-items">
-                
+            <div class="skill-section">
+                <h3>Skills & tools</h3>
+                <div class="skill-tags">
+                </div>
             </div>
-        </div>
-        <div class="education">
-            <h2>education</h2>
-        </div>
-        <div class="education">
-            <h2>My Work</h2>
-            <div class="myWork">
+            <div class="interests-section">
+                <h3>Hobbies & interests</h3>
+                <div class="hobby-tags">
+                </div>
+            </div>
+        </section>
+    </aside>
+    <main>
+        <section>
+            <div class="accordion">
+                <div class="accordion-item myStory open">
+                    <div class="accordion-item-header">
+                        <h2>My short story</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-chevron-down accordion-item-header-icon">
+                            <path d="m6 9 6 6 6-6" />
+                        </svg>
+                    </div>
+                    <div class="accordion-item-description-wrapper">
+                        <div class="accordion-item-description">
+                            <hr>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item experience open">
+                    <div class="accordion-item-header">
+                        <h2>Work experience</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-chevron-down accordion-item-header-icon">
+                            <path d="m6 9 6 6 6-6" />
+                        </svg>
+                    </div>
+                    <div class="accordion-item-description-wrapper">
+                        <div class="accordion-item-description">
+                            <hr>
+                            <div class="job-items">
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item education open">
+                    <div class="accordion-item-header">
+                        <h2>education</h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-chevron-down accordion-item-header-icon">
+                            <path d="m6 9 6 6 6-6" />
+                        </svg>
+                    </div>
+                    <div class="accordion-item-description-wrapper">
+                        <div class="accordion-item-description">
+                            <hr>
+                            <div class="job-items">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <h2>My Work</h2>
+                    <div class="myWork">
+
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-</main>
-<footer>
-    <section>
-        <div class="socials">
-        </div>
-    </section>
-</footer>
-<script src="main.js"></script>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="socials">
+            </div>
+        </section>
+    </footer>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/accordion.js"></script>
 </body>
+
 </html>
