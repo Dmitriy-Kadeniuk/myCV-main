@@ -1,0 +1,140 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @media screen and (max-width: 980px) {
+    }
+
+    .accordion-item {
+        display: flex;
+        padding: 18px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 16px;
+        border: 1px solid #fff;
+        background: rgba(105, 105, 105, 0.842);
+        backdrop-filter: blur(10px);
+        transition: 0.5s ease;
+
+        &.open {
+            background: rgba(186, 186, 190, 0.88);
+            .accordion-item-description-wrapper {
+                grid-template-rows: 1fr;
+
+                hr {
+                    visibility: visible;
+                    margin: 20px 0px;
+                }
+
+                .accordion-item-header-icon {
+                    transform: rotate(-180deg);
+                }
+            }
+            .accordion-item-header {
+                .steps-select__image {
+                    border: 1px solid $Primary-900;
+                    background: transparent;
+                    backdrop-filter: none;
+
+                    .steps-select__image-inner {
+                        background: rgba(158, 123, 80, 0.24);
+                        border-radius: 34.667px;
+                        img {
+                            filter: brightness(0) saturate(100%) invert(49%) sepia(14%) saturate(1460%)
+                                hue-rotate(355deg) brightness(95%) contrast(85%);
+                        }
+                    }
+                }
+                .body_4 {
+                    font-weight: 500;
+                    color: rgba(158, 123, 80, 0.8);
+                }
+                .h6 {
+                    color: $Primary-900;
+                }
+
+                .accordion-item-header-icon {
+                    transition: all 0.2s ease;
+                }
+            }
+        }
+
+        .accordion-item-header {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            width: 100%;
+
+            .steps-select__image {
+                width: 52px;
+                height: 52px;
+                border-radius: 34.667px;
+                border: 1px solid $White-100;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: rgba(242, 242, 242, 0.12);
+                backdrop-filter: blur(3px);
+                .steps-select__image-inner {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40px;
+                    height: 40px;
+                    transition: 0.5s ease;
+                }
+            }
+            .body_4 {
+                font-weight: 500;
+                color: rgba(242, 242, 242, 0.8);
+                transition: 0.5s ease;
+            }
+            .h6 {
+                color: $White-100;
+                transition: 0.5s ease;
+            }
+
+            .accordion-item-header-icon {
+                transition: all 0.2s ease;
+            }
+        }
+
+        .accordion-item-description-wrapper {
+            display: grid;
+            width: 100%;
+            grid-template-rows: 0fr;
+            overflow: hidden;
+            transition: all 0.2s ease;
+
+            hr {
+                border: none;
+                border-top: 1px solid #5e5e5e;
+                visibility: visible;
+            }
+
+            .accordion-item-description {
+                min-height: 0;
+
+                .body_2 {
+                    color: $Secondary-800;
+                }
+            }
+        }
+    }
+    .accordion-container:not(:first-child) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &::before {
+            content: "";
+            display: block;
+            width: 1px;
+            height: 16px;
+            background-color: rgba(242, 242, 242, 0.8);
+            margin: 4px 0px 4px 0px;
+        }
+    }
+}

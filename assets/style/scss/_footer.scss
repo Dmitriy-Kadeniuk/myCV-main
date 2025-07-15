@@ -1,0 +1,47 @@
+footer{
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 20px 120px;
+        @media screen and (max-width: 980px) {
+            padding: 20px;
+        }
+        .socials{
+            display: flex;
+            gap: 20px;
+            a{
+                color: #fff;
+                font-size: 24px;
+                transition: color 0.3s ease;
+                &:hover{
+                    color: #a7a7a7;
+                }
+            }
+        }
+        .download_cv{
+            display: flex;
+            gap: 10px;
+            padding-bottom: 4px;
+            align-items: center;
+            justify-content: center;
+            color: #e9e9e9;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #e9e9e9;
+            cursor: pointer;
+
+            img{
+                width: 20px;
+                height: auto;
+            }
+            &:hover{
+                background-color: #f0f0f0;
+                color: #000;
+            }
+        }
+    }
+}
