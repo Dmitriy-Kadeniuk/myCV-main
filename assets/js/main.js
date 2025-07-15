@@ -38,9 +38,20 @@ window.addEventListener('DOMContentLoaded', () => {
     main.querySelector('.education .accordion-item-description .job-items')
         .insertAdjacentHTML('beforeend', `${data.makeEducation()}`);
 
-    PdfButton = document.querySelector('.pdf_button');
-    PdfButton.addEventListener('click', () => {
-        window.print();
+    const pdfButton = document.querySelector('.pdf_button');
+    pdfButton.addEventListener('click', () => {
+        const pdfUrl = 'assests/dmitriy-kadeniuk_github.pdf';
+
+        const downloadLink = document.createElement('a');
+        downloadLink.href = pdfUrl;
+        downloadLink.download = 'dmitriy_kadenyuk_cv.pdf'; 
+
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+
+        setTimeout(() => {
+            document.body.removeChild(downloadLink);
+        }, 100);
     });
 
 
