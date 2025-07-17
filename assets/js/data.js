@@ -177,11 +177,7 @@ I offer services for both landing pages and multi-page websites.<br>`,
             iconClass: 'fab fa-telegram',
         },
         {
-            href: `viber://chat?number=%2B+3800685359128`,
-            iconClass: 'fab fa-viber',
-        },
-        {
-            href: `https://wa.me/+3800685359128`,
+            href: `https://www.linkedin.com/in/dmitriy-kadeniuk-366284243/`,
             iconClass: 'fab fa-linkedin',
         },
     ],
