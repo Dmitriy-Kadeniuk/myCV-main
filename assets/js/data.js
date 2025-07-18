@@ -273,6 +273,21 @@ I offer services for both landing pages and multi-page websites.<br>`,
             linkWork: 'https://nutritionbytanya.com/',
         },
         {
+            nameWork: 'Clinic in Dubai',
+            imageWork: 'assets/img/clinica.jpg',
+            linkWork: 'https://turri-vive.com/',
+        },
+        {
+            nameWork: 'Cyprus Business Club',
+            imageWork: 'assets/img/cbc.jpg',
+            linkWork: 'https://cyprusbusinessclub.com/',
+        },
+        {
+            nameWork: 'Trading bot',
+            imageWork: 'assets/img/tr-bot.jpg',
+            linkWork: 'https://f1nance.ai/',
+        },
+        {
             nameWork: 'Nibulon',
             imageWork: 'assets/img/nibulon.jpg',
             linkWork: 'https://www.nibulon.com/',
