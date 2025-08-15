@@ -303,9 +303,9 @@ I offer services for both landing pages and multi-page websites.<br>`,
             linkWork: 'https://xyzbusiness-services.com/',
         },
         {
-            nameWork: 'OutSoft',
+            nameWork: 'kikaLab',
             imageWork: 'assets/img/outsoft.jpg',
-            linkWork: 'https://outsoft.eu/',
+            linkWork: 'https://kika-lab.com/',
         },
     ],
 
