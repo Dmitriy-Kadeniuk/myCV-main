@@ -55,7 +55,7 @@ I offer services for both landing pages and multi-page websites.<br>`,
         },
         {
             name: 'Laravel',
-            experience: 0.6,
+            experience: 1,
         },
         {
             name: 'Git',
@@ -170,6 +170,7 @@ I offer services for both landing pages and multi-page websites.<br>`,
         'Sport',
         'Programming',
         'Electronics',
+        'Voleyball',
     ],
     messengers: [
         {
@@ -183,7 +184,7 @@ I offer services for both landing pages and multi-page websites.<br>`,
     ],
     experience: [
         {
-            period: ['08.2024', 'now'],
+            period: ['08.2024', '10.2025'],
             workNow: true,
             companyName: `OutSoft`,
             position: `Front-end | PHP | WordPress Developer`,
