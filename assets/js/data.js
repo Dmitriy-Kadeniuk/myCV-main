@@ -3,26 +3,11 @@ const data = {
     age: '24',
     gender: 'male',
     about: [
-        `Hello, thank you for your attention!<br>
-My name is Dmitriy, and I am a PHP/WordPress developer. I primarily specialize in backend development but also have solid experience working with the frontend part of websites.<br>
-
-I have around 5 years of commercial experience during which I have been involved in:<br>
-
-1.Developing and customizing WordPress websites using custom themes and popular plugins such as ACF, Contact Form 7, Polylang, and Elementor.<br>
-
-2.Creating tailored WooCommerce solutions for specific business needs.<br>
-
-3.Efficient bug fixing and functionality debugging.<br>
-
-4.Implementing animations and interactive elements using JavaScript to enhance visual appeal and user engagement.<br>
-
-5.Continuously updating my knowledge and staying current with the latest trends in web development.<br>
-
-6.Effective communication with clients and team members.<br>
-
-7.Improving website cybersecurity.<br>
-
-I offer services for both landing pages and multi-page websites.<br>`,
+        `Hi! My name is Dmytro, and I’m a PHP developer with a strong focus on WordPress and Laravel.<br>
+I have 5 years of commercial experience working with WordPress — building, optimizing, and enhancing websites of any complexity.<br>
+I also have 1 year of commercial experience with Laravel, developing flexible and scalable backend solutions.<br>
+<br>
+In addition to backend development, I have frontend skills — creating responsive interfaces, integrating animations, and improving user experience (UX).`,
 
     ],
     phone: [
@@ -188,7 +173,9 @@ I offer services for both landing pages and multi-page websites.<br>`,
             workNow: true,
             companyName: `OutSoft`,
             position: `PHP developer`,
-            description: `- Development of landing pages, online stores, and multi-page websites.<br>
+            description: `
+            <i>Wordpress</i> <br>
+            - Development of landing pages, online stores, and multi-page websites.<br>
         - Bug fixing and troubleshooting.<br>
         - WordPress development and customization.<br>
         - WooCommerce development and customization.<br>
@@ -196,15 +183,25 @@ I offer services for both landing pages and multi-page websites.<br>`,
         - Creating themes from scratch.<br>
         - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
         - Creating animations using JS.<br>
-        - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,    
-    },
-        
+        - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>
+        <i>Laravel</i> <br>
+        - Development and maintenance of web applications using the Laravel framework.<br>
+        - Database design and management using MySQL.<br>
+        - Create migrations, seeders, and Eloquent models to interact with the database.<br>
+        - Using Blade templating engine to create dynamic and responsive user interfaces.<br>
+        - Using MVC architecture to separate application logic from presentation layer.<br>
+        `,
+
+        },
+
         {
             period: ['02.2023', '08.2024'],
             workNow: false,
             companyName: `Remote Helpers`,
             position: `PHP developer`,
-            description: `- Development of landing pages, online stores, and multi-page websites.<br>
+            description: `
+            <i>Wordpress</i> <br>
+            - Development of landing pages, online stores, and multi-page websites.<br>
         - Bug fixing and troubleshooting.<br>
         - WordPress development and customization.<br>
         - WooCommerce development and customization.<br>
@@ -212,7 +209,14 @@ I offer services for both landing pages and multi-page websites.<br>`,
         - Creating themes from scratch.<br>
         - Working with plugins like ACF, Contact Form 7, Polylang, Elementor,WPML.<br>
         - Creating animations using JS.<br>
-        - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>`,
+        - Working with various WordPress plugins and creating custom solutions for WooCommerce.<br>
+                <i>Laravel</i> <br>
+        - Development and maintenance of web applications using the Laravel framework.<br>
+        - Database design and management using MySQL.<br>
+        - Create migrations, seeders, and Eloquent models to interact with the database.<br>
+        - Using Blade templating engine to create dynamic and responsive user interfaces.<br>
+        - Using MVC architecture to separate application logic from presentation layer.<br>
+        `,
         },
         {
             period: ['09.2022', '02.2023'],
@@ -220,6 +224,7 @@ I offer services for both landing pages and multi-page websites.<br>`,
             companyName: `Onix Systems`,
             position: `PHP developer`,
             description: `
+            <i>Wordpress</i> <br>
         - Development of landing pages, online stores, and multi-page websites.<br>
         - Bug fixing and troubleshooting.<br>
         - WordPress development and customization.<br>
@@ -236,7 +241,9 @@ I offer services for both landing pages and multi-page websites.<br>`,
             workNow: false,
             companyName: `DevOut Labs`,
             position: `PHP developer`,
-            description: `-Development of a WordPress website, deploying it on a CMS using ACF Pro, Contact Form 7, and incorporating JS animations.<br>
+            description: `
+            <i>Wordpress</i> <br>
+            -Development of a WordPress website, deploying it on a CMS using ACF Pro, Contact Form 7, and incorporating JS animations.<br>
         Ability to edit text fields and replace images.<br>
         Customizable menu that can be modified in the admin panel.<br>`,
         },
@@ -245,7 +252,9 @@ I offer services for both landing pages and multi-page websites.<br>`,
             workNow: false,
             companyName: `Lion Internal`,
             position: `PHP developer`,
-            description: `- Bug tracking and resolution on webpages.<br>
+            description: `
+            <i>Wordpress</i> <br>
+            - Bug tracking and resolution on webpages.<br>
         - Configuration of the store's payment systems.<br>
         - Implementation of new logic on websites.<br>
         - Development of new webpages.<br>
