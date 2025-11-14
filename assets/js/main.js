@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     pdfButtons.forEach(button => {
         button.addEventListener('click', () => {
-            const pdfUrl = 'dmitriy-kadeniuk_github.pdf';
+            const pdfUrl = 'dmitriy-kadeniuk_cv.pdf';
 
             const downloadLink = document.createElement('a');
             downloadLink.href = pdfUrl;
