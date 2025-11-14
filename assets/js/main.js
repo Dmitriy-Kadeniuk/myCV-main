@@ -49,7 +49,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             const downloadLink = document.createElement('a');
             downloadLink.href = pdfUrl;
-            downloadLink.download = 'dmitriy_kadenyuk_cv.pdf';
+            downloadLink.download = 'dmitriy-kadeniuk_cv.pdf';
 
             document.body.appendChild(downloadLink);
             downloadLink.click();
