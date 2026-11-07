@@ -4,192 +4,433 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dmitriy Kadenyuk — Team Lead, PHP / Laravel / Statamic</title>
+    <meta name="description"
+        content="Dmitriy Kadenyuk — Team Lead and full-stack PHP developer. Laravel, Statamic, WordPress, Vue. Running 24 production websites at Frozeneon.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/style/css/main.css">
-    <title>My CV</title>
-    <script src="assets/js/data.js"></script>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
-        integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
-        integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header_name">
-                <h1 class="header_name-title h1">Dmitriy Kadenyuk</h1>
-            </div>
-            <div class="header_position">
-                <h2 class="header_position-title h4">PHP developer</h2>
-                <button class="pdf_button header_position-button"><img src="assets/img/free-icon-printer-8188145.png"
-                        alt=""></button>
-            </div>
+    <header class="topbar">
+        <div class="wrap topbar__inner">
+            <a href="#top" class="logo" aria-label="Home">DK<span>.</span></a>
+            <nav class="nav">
+                <a href="#year">This year</a>
+                <a href="#experience">Experience</a>
+                <a href="#stack">Stack</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a class="btn btn--ink" href="dmitriy-kadeniuk_cv.pdf" download>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14" /></svg>
+                PDF
+            </a>
         </div>
-
     </header>
-    <main class="main">
-        <aside class="main_info">
-            <div class="main_photo">
-                <img src="assets/img/my1.jpg" alt="">
-            </div>
-            <div class="main_social">
-                <div class="contact-items">
-                </div>
-            </div>
-            <div class="main_language">
-                <h3 class="main_section-title h3">Languages</h3>
-            </div>
-            <div class="main_skills">
-                <h3 class="main_section-title h3">Skills & tools</h3>
-                <div class="skill-tags">
-                </div>
-            </div>
-            <div class="main_hobby">
-                <h3 class="main_section-title h3">Hobbies & interests</h3>
-                <div class="hobby-tags">
-                </div>
-            </div>
-        </aside>
-        <section class="main_content">
-            <div class="accordion">
-                <div class="accordion-item myStory open">
-                    <div class="accordion-item-header">
-                        <h2 class="h3 main_content_title">About me</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-chevron-down accordion-item-header-icon">
-                            <path d="m6 9 6 6 6-6" />
-                        </svg>
-                    </div>
-                    <div class="accordion-item-description-wrapper">
-                        <div class="accordion-item-description">
-                            <hr>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item wordpress open">
-                    <div class="accordion-item-header">
-                        <h2 class="h3 main_content_title">Wordpress - <i>5 years of experience</i></h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-chevron-down accordion-item-header-icon">
-                            <path d="m6 9 6 6 6-6" />
-                        </svg>
-                    </div>
-                    <div class="accordion-item-description-wrapper">
-                        <div class="accordion-item-description">
-                            <hr>
-                            <h4>What I do</h4>
-                            <ul>
-                                <li>Creating custom themes</li>
-                                <li>Developing custom plugins</li>
-                                <li>Modifying and extending existing plugins and themes</li>
-                                <li>Website maintenance and updates</li>
-                                <li>Performance optimization (caching, queries, images)</li>
-                                <li>SEO optimization (technical and on-page)</li>
-                                <li>Security enhancements and hardening</li>
-                                <li>Integration with third-party APIs and services</li>
-                                <li>Testing and debugging (including WP_DEBUG and logs)</li>
-                                <li>Creating custom functions and shortcodes</li>
-                                <li>Advanced Custom Fields (ACF)</li>
-                                <li>WooCommerce customization and extensions</li>
-                                <li>Multilingual websites (WPML / Polylang)</li>
-                                <li>Custom post types and taxonomies</li>
-                                <li>REST API integration</li>
-                                <li>Elementor and other builders</li>
-                                <li>Version control (Git, Bitbucket, GitHub)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item laravel open">
-                    <div class="accordion-item-header">
-                        <h2 class="h3 main_content_title">Laravel - <i>1 years of experience</i></h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-chevron-down accordion-item-header-icon">
-                            <path d="m6 9 6 6 6-6" />
-                        </svg>
-                    </div>
-                    <div class="accordion-item-description-wrapper">
-                        <div class="accordion-item-description">
-                            <hr>
-                            <h4>What I do</h4>
-                            <ul>
-                                <li>Developing RESTful APIs</li>
-                                <li>Working with MVC architecture</li>
-                                <li>Database design and management (MySQL, migrations, seeders)</li>
-                                <li>Using Eloquent ORM for database operations</li>
-                                <li>Blade templating and dynamic views</li>
-                                <li>Form validation and request handling</li>
-                                <li>Integration with external APIs and services</li>
-                                <li>Using Middleware for request filtering and logic</li>
-                                <li>Error handling and logging</li>
-                                <li>Working with routes, controllers, and service layers</li>
-                                <li>Version control (Git, Bitbucket, GitHub)</li>
-                            </ul>
 
-                        </div>
-                    </div>
+    <main id="top">
+        <!-- HERO -->
+        <section class="hero wrap">
+            <div class="hero__text">
+                <p class="eyebrow"><span class="dot"></span>Team Lead at Frozeneon</p>
+                <h1 class="hero__title">
+                    Hi, I'm Dmitriy.<br>
+                    I build <em>fast, SEO-driven websites</em> and lead the people who build them with me.
+                </h1>
+                <p class="hero__lead">
+                    I've been doing PHP for six years: WordPress first, then Laravel, and now Statamic.
+                    These days I look after 24 production sites, mentor developers, choose the stack and
+                    get things deployed. I like clean architecture, boring deploys and automating anything
+                    I've had to do twice.
+                </p>
+                <div class="hero__actions">
+                    <a class="btn btn--accent" href="https://t.me/Amoterassu" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z" /><path d="M22 2 11 13" /></svg>
+                        Message on Telegram
+                    </a>
+                    <a class="btn btn--ghost" href="https://www.linkedin.com/in/dmitriy-kadeniuk/" target="_blank" rel="noopener">
+                        LinkedIn
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+                    </a>
                 </div>
-                <div class="accordion-item experience open">
-                    <div class="accordion-item-header">
-                        <h2 class="h3 main_content_title">Work experience</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-chevron-down accordion-item-header-icon">
-                            <path d="m6 9 6 6 6-6" />
-                        </svg>
-                    </div>
-                    <div class="accordion-item-description-wrapper">
-                        <div class="accordion-item-description">
-                            <hr>
-                            <div class="job-items">
+            </div>
+            <figure class="hero__photo">
+                <img src="assets/img/my1.jpg" alt="Dmitriy Kadenyuk" width="853" height="1280">
+                <figcaption class="sticker">PHP since 2021 ✦</figcaption>
+            </figure>
+        </section>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item education open">
-                    <div class="accordion-item-header">
-                        <h2 class="h3 main_content_title">education</h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-chevron-down accordion-item-header-icon">
-                            <path d="m6 9 6 6 6-6" />
-                        </svg>
-                    </div>
-                    <div class="accordion-item-description-wrapper">
-                        <div class="accordion-item-description">
-                            <hr>
-                            <div class="job-items">
+        <!-- STATS -->
+        <section class="stats wrap" aria-label="Key numbers">
+            <div class="stat"><b>6</b><span>years in commercial<br>web development</span></div>
+            <div class="stat"><b>24</b><span>production sites<br>I look after</span></div>
+            <div class="stat"><b>14</b><span>Statamic projects,<br>multisite &amp; multilingual</span></div>
+            <div class="stat"><b>2</b><span>developers<br>mentored</span></div>
+        </section>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="education work_container">
-                    <h2 class="h3 work_container_title">My Work</h2>
-                    <div class="myWork work_container_items">
+        <!-- THIS YEAR -->
+        <section class="section wrap" id="year">
+            <div class="section__head">
+                <p class="label">01 / The last 12 months</p>
+                <h2 class="section__title">What I got done <em>this year</em></h2>
+            </div>
+            <div class="cards">
+                <article class="card">
+                    <span class="card__num">01</span>
+                    <h3>Moved the infrastructure to Laravel Cloud</h3>
+                    <p>Set up a new server environment from scratch and moved our sites onto it, with predictable
+                        deploys for every project.</p>
+                </article>
+                <article class="card">
+                    <span class="card__num">02</span>
+                    <h3>Updated 24 sites and kept them updated</h3>
+                    <p>Upgraded every site to the latest CMS and add-on versions, then set up Dependabot so
+                        dependency updates now arrive automatically instead of building up.</p>
+                </article>
+                <article class="card">
+                    <span class="card__num">03</span>
+                    <h3>Stopped user data loss on deploy</h3>
+                    <p>Found that user accounts were wiped on redeploy and moved user storage to persistent
+                        storage across all Laravel Cloud projects.</p>
+                </article>
+                <article class="card">
+                    <span class="card__num">04</span>
+                    <h3>Built the Hellcase blog on Statamic</h3>
+                    <p>Multisite, multilingual blog, built end to end on my side and delivered to the staging
+                        environment for team review before going live.</p>
+                </article>
+                <article class="card">
+                    <span class="card__num">05</span>
+                    <h3>Redesign &amp; migration</h3>
+                    <p>Built the new design for bestcs2cases.com and started moving the Analyst blog from WordPress
+                        to Statamic so our whole stack runs on the same CMS.</p>
+                </article>
+                <article class="card">
+                    <span class="card__num">06</span>
+                    <h3>Brought AI tools into the team</h3>
+                    <p>Added Claude Code, Cursor and MCP servers (Laravel Boost, Playwright) into our
+                        daily development and automated the routine work around them.</p>
+                </article>
+            </div>
+        </section>
 
+        <!-- EXPERIENCE -->
+        <section class="section wrap" id="experience">
+            <div class="section__head">
+                <p class="label">02 / Experience</p>
+                <h2 class="section__title">Where I've <em>worked</em></h2>
+            </div>
+
+            <ol class="timeline">
+                <li class="job job--current">
+                    <div class="job__meta">
+                        <span class="job__date">11.2025 — now</span>
+                        <span class="badge">current</span>
+                    </div>
+                    <div class="job__body">
+                        <h3>Frozeneon <span>Team Lead · Full-stack PHP Developer</span></h3>
+                        <p>I lead development of a portfolio of content and SEO websites in the CS2 / esports space,
+                            built on Statamic, Laravel and WordPress.</p>
+                        <ul>
+                            <li>Mentoring developers and doing code review for the team</li>
+                            <li>Designing web app architecture and choosing the tech stack for new projects</li>
+                            <li>Full-cycle development, frontend and backend, plus deployment</li>
+                            <li>Server environment setup, server data analysis, Cloudflare API and S3 integrations</li>
+                            <li>Working with external contractors and the SEO team on new product ideas</li>
+                            <li>Researching new integrations and automating repetitive workflows</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="job">
+                    <div class="job__meta"><span class="job__date">08.2024 — 10.2025</span></div>
+                    <div class="job__body">
+                        <h3>OutSoft <span>PHP Developer</span></h3>
+                        <p>WordPress and Laravel projects for agency clients: online stores, landing pages and
+                            multi-page sites. Custom themes from scratch, WooCommerce customization, Laravel apps
+                            with MySQL, Eloquent, Blade and MVC architecture.</p>
+                    </div>
+                </li>
+                <li class="job">
+                    <div class="job__meta"><span class="job__date">02.2023 — 08.2024</span></div>
+                    <div class="job__body">
+                        <h3>Remote Helpers <span>PHP Developer</span></h3>
+                        <p>WordPress and WooCommerce development and customization, custom themes and plugins (ACF,
+                            Polylang, WPML, Elementor), JS animations. My first Laravel projects: migrations,
+                            seeders, Eloquent models, Blade.</p>
+                    </div>
+                </li>
+                <li class="job">
+                    <div class="job__meta"><span class="job__date">09.2022 — 02.2023</span></div>
+                    <div class="job__body">
+                        <h3>Onix Systems <span>PHP Developer</span></h3>
+                        <p>Landing pages, online stores and multi-page WordPress sites. Extended plugin
+                            functionality and built custom WooCommerce solutions.</p>
+                    </div>
+                </li>
+                <li class="job">
+                    <div class="job__meta"><span class="job__date">04.2022 — 08.2022</span></div>
+                    <div class="job__body">
+                        <h3>DevOut Labs <span>PHP Developer</span></h3>
+                        <p>WordPress sites with ACF Pro and Contact Form 7, JS animations and fully editable
+                            content and menus for clients.</p>
+                    </div>
+                </li>
+                <li class="job">
+                    <div class="job__meta"><span class="job__date">01.2022 — 04.2022</span></div>
+                    <div class="job__body">
+                        <h3>Lion Internal <span>PHP Developer</span></h3>
+                        <p>Store payment system configuration, new site logic and pages, bug fixing on WooCommerce.</p>
+                    </div>
+                </li>
+                <li class="job">
+                    <div class="job__meta"><span class="job__date">2021 — 2022</span></div>
+                    <div class="job__body">
+                        <h3>Freelance, Upwork <span>Front-end / PHP Developer</span></h3>
+                        <p>My start: landing pages, stores and WordPress themes for clients worldwide.</p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <!-- STACK -->
+        <section class="section wrap" id="stack">
+            <div class="section__head">
+                <p class="label">03 / Stack</p>
+                <h2 class="section__title">Tools I <em>use</em></h2>
+                <p class="section__note"><span class="chip chip--new">new</span> = picked up in the last year</p>
+            </div>
+            <div class="stack">
+                <div class="stack__group">
+                    <h3>Backend</h3>
+                    <div class="chips">
+                        <span class="chip">PHP</span>
+                        <span class="chip">Laravel</span>
+                        <span class="chip chip--new">Statamic</span>
+                        <span class="chip chip--new">Statamic add-ons</span>
+                        <span class="chip chip--new">Multisite / multilingual</span>
+                        <span class="chip chip--new">Livewire</span>
+                        <span class="chip chip--new">Filament PHP</span>
+                        <span class="chip">WordPress</span>
+                        <span class="chip">WooCommerce</span>
+                        <span class="chip">ACF</span>
+                        <span class="chip">WPML / Polylang</span>
+                        <span class="chip">MySQL</span>
+                        <span class="chip">REST API</span>
                     </div>
                 </div>
+                <div class="stack__group">
+                    <h3>Frontend</h3>
+                    <div class="chips">
+                        <span class="chip">JavaScript</span>
+                        <span class="chip chip--new">Vue 3</span>
+                        <span class="chip chip--new">Vite</span>
+                        <span class="chip chip--new">Three.js / WebGL</span>
+                        <span class="chip chip--new">Gulp</span>
+                        <span class="chip">SCSS</span>
+                        <span class="chip">HTML / CSS</span>
+                        <span class="chip">jQuery</span>
+                        <span class="chip">Bootstrap</span>
+                        <span class="chip">Figma</span>
+                        <span class="chip">Photoshop</span>
+                    </div>
+                </div>
+                <div class="stack__group">
+                    <h3>Infrastructure</h3>
+                    <div class="chips">
+                        <span class="chip chip--new">Laravel Cloud</span>
+                        <span class="chip">Docker</span>
+                        <span class="chip chip--new">Cloudflare API</span>
+                        <span class="chip chip--new">S3 storage</span>
+                        <span class="chip chip--new">Dependabot</span>
+                        <span class="chip">Git / GitHub / Bitbucket</span>
+                        <span class="chip chip--new">Blender</span>
+                    </div>
+                </div>
+                <div class="stack__group">
+                    <h3>AI in my workflow</h3>
+                    <div class="chips">
+                        <span class="chip chip--new">Claude Code</span>
+                        <span class="chip chip--new">Cursor</span>
+                        <span class="chip chip--new">Cline</span>
+                        <span class="chip chip--new">Gemini</span>
+                        <span class="chip chip--new">MCP: Laravel Boost</span>
+                        <span class="chip chip--new">MCP: Playwright</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section class="section wrap" id="work">
+            <div class="section__head">
+                <p class="label">04 / Selected work</p>
+                <h2 class="section__title">Live projects <em>I work on</em></h2>
+            </div>
+            <div class="works">
+                <a class="work" href="https://bestcs2cases.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/bestcs2cases_com.jpg" alt="bestcs2cases.com" loading="lazy"></div>
+                    <div class="work__info"><b>bestcs2cases.com</b><span>Statamic · redesign</span></div>
+                </a>
+                <a class="work" href="https://cs2roi.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/cs2roi_com.jpg" alt="cs2roi.com" loading="lazy"></div>
+                    <div class="work__info"><b>cs2roi.com</b><span>Laravel · ROI calculator</span></div>
+                </a>
+                <a class="work" href="https://csgocasesimulator.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/csgocasesimulator_com.jpg" alt="csgocasesimulator.com" loading="lazy"></div>
+                    <div class="work__info"><b>csgocasesimulator.com</b><span>Statamic · simulator</span></div>
+                </a>
+                <a class="work" href="https://cs2crosshair.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/cs2crosshair_com.jpg" alt="cs2crosshair.com" loading="lazy"></div>
+                    <div class="work__info"><b>cs2crosshair.com</b><span>Statamic · generator</span></div>
+                </a>
+                <a class="work" href="https://giveaway-hub.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/giveaway-hub_com.jpg" alt="giveaway-hub.com" loading="lazy"></div>
+                    <div class="work__info"><b>giveaway-hub.com</b><span>Statamic · giveaways</span></div>
+                </a>
+                <a class="work" href="https://hellcasepromos.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/hellcasepromos_com.jpg" alt="hellcasepromos.com" loading="lazy"></div>
+                    <div class="work__info"><b>hellcasepromos.com</b><span>Statamic · promo codes</span></div>
+                </a>
+                <a class="work" href="https://cs2-markets.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/cs2-markets_com.jpg" alt="cs2-markets.com" loading="lazy"></div>
+                    <div class="work__info"><b>cs2-markets.com</b><span>Statamic · reviews</span></div>
+                </a>
+                <a class="work" href="https://cs2platforms.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/cs2platforms_com.jpg" alt="cs2platforms.com" loading="lazy"></div>
+                    <div class="work__info"><b>cs2platforms.com</b><span>Statamic · reviews</span></div>
+                </a>
+                <a class="work" href="https://cs2tradeup.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/cs2tradeup_com.jpg" alt="cs2tradeup.com" loading="lazy"></div>
+                    <div class="work__info"><b>cs2tradeup.com</b><span>Statamic · reviews</span></div>
+                </a>
+                <a class="work" href="https://esportreviews.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/esportreviews_com.jpg" alt="esportreviews.com" loading="lazy"></div>
+                    <div class="work__info"><b>esportreviews.com</b><span>Statamic · esports</span></div>
+                </a>
+                <a class="work" href="https://opencaseinfo.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/opencaseinfo_com.jpg" alt="opencaseinfo.com" loading="lazy"></div>
+                    <div class="work__info"><b>opencaseinfo.com</b><span>Statamic · reviews</span></div>
+                </a>
+                <a class="work" href="https://topcs2markets.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/work/topcs2markets_com.jpg" alt="topcs2markets.com" loading="lazy"></div>
+                    <div class="work__info"><b>topcs2markets.com</b><span>Statamic · reviews</span></div>
+                </a>
+            </div>
+
+            <h3 class="subhead">Earlier client work · WordPress &amp; Laravel, 2022–2025</h3>
+            <div class="works works--small">
+                <a class="work" href="https://nutritionbytanya.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/nutrion.jpg" alt="Nutrition by Tanya" loading="lazy"></div>
+                    <div class="work__info"><b>Nutrition by Tanya</b></div>
+                </a>
+                <a class="work" href="https://turri-vive.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/clinica.jpg" alt="Clinic in Dubai" loading="lazy"></div>
+                    <div class="work__info"><b>Clinic in Dubai</b></div>
+                </a>
+                <a class="work" href="https://cyprusbusinessclub.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/cbc.jpg" alt="Cyprus Business Club" loading="lazy"></div>
+                    <div class="work__info"><b>Cyprus Business Club</b></div>
+                </a>
+                <a class="work" href="https://f1nance.ai/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/tr-bot.jpg" alt="Trading bot" loading="lazy"></div>
+                    <div class="work__info"><b>Trading bot</b></div>
+                </a>
+                <a class="work" href="https://www.nibulon.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/nibulon.jpg" alt="Nibulon" loading="lazy"></div>
+                    <div class="work__info"><b>Nibulon</b></div>
+                </a>
+                <a class="work" href="https://nl.life/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/nl_life.jpg" alt="NL Life" loading="lazy"></div>
+                    <div class="work__info"><b>NL Life</b></div>
+                </a>
+                <a class="work" href="https://xyzbusiness-services.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/xyz.jpg" alt="XYZ Business" loading="lazy"></div>
+                    <div class="work__info"><b>XYZ Business</b></div>
+                </a>
+                <a class="work" href="https://kika-lab.com/" target="_blank" rel="noopener">
+                    <div class="work__img"><img src="assets/img/outsoft.jpg" alt="kikaLab" loading="lazy"></div>
+                    <div class="work__info"><b>kikaLab</b></div>
+                </a>
+            </div>
+        </section>
+
+        <!-- EDUCATION / LANGUAGES / INTERESTS -->
+        <section class="section wrap" id="about">
+            <div class="section__head">
+                <p class="label">05 / Background</p>
+                <h2 class="section__title">Beyond <em>the code</em></h2>
+            </div>
+            <div class="trio">
+                <div class="trio__col">
+                    <h3>Education</h3>
+                    <dl class="edu">
+                        <dt>Ukrainian State University of Railway Transport</dt>
+                        <dd>Automation, computer-integrated technologies &amp; robotics · IT specialist · 2023–2025</dd>
+                        <dt>Ukrainian State University of Railway Transport</dt>
+                        <dd>Information-control systems &amp; technologies · Engineer · 2020–2023</dd>
+                        <dt>Kharkiv State Polytechnic College</dt>
+                        <dd>Automated motion control systems · Electrician · 2016–2020</dd>
+                        <dt>SoloLearn</dt>
+                        <dd>Programming courses · 2020–2021</dd>
+                    </dl>
+                </div>
+                <div class="trio__col">
+                    <h3>Languages</h3>
+                    <ul class="langs">
+                        <li><span>Ukrainian</span><i style="--lvl:100%"></i><b>C2</b></li>
+                        <li><span>Russian</span><i style="--lvl:100%"></i><b>C2</b></li>
+                        <li><span>English</span><i style="--lvl:55%"></i><b>B1</b></li>
+                    </ul>
+                </div>
+                <div class="trio__col">
+                    <h3>Outside work</h3>
+                    <p class="muted">I spend evenings improving my server skills and testing AI add-ons
+                        that could help the team. Away from the screen:</p>
+                    <div class="chips">
+                        <span class="chip">⚽ Football</span>
+                        <span class="chip">🏐 Volleyball</span>
+                        <span class="chip">🔌 Electronics</span>
+                        <span class="chip">📈 Dev trends</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <div class="wrap contact__inner">
+                <p class="label label--light">06 / Contact</p>
+                <h2 class="contact__title">Let's build <em>something</em> together.</h2>
+                <div class="contact__links">
+                    <a href="https://t.me/Amoterassu" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z" /><path d="M22 2 11 13" /></svg>
+                        @Amoterassu
+                    </a>
+                    <a href="tel:+380685359128">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z" /></svg>
+                        +380 68 535 91 28
+                    </a>
+                    <a href="https://www.linkedin.com/in/dmitriy-kadeniuk/" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M4.98 3.5a2.48 2.5 0 1 1-4.96 0 2.48 2.5 0 0 1 4.96 0zM5 8H0v16h5V8zm7.98 0H8.01v16h4.97v-8.4c0-4.67 6.03-5.05 6.03 0V24H24V13.87c0-7.88-8.92-7.6-11.02-3.72V8z" /></svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100084065657396" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M9 8H6v4h3v12h5V12h3.64L18 8h-4V6.33C14 5.38 14.19 5 15.12 5H18V0h-3.81C10.6 0 9 1.58 9 4.62V8z" /></svg>
+                        Facebook
+                    </a>
+                </div>
+            </div>
+            <div class="wrap footer">
+                <span>© 2026 Dmitriy Kadenyuk</span>
+                <a href="dmitriy-kadeniuk_cv.pdf" download>Download CV (PDF) ↓</a>
             </div>
         </section>
     </main>
-    <footer>
-        <section class="container">
-            <div class="socials">
-            </div>
-            <button class="download_cv h4 pdf_button">Download CV<img src="assets/img/free-icon-printer-8188145.png"
-                    alt=""></button>
-        </section>
-    </footer>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/accordion.js"></script>
 </body>
 
 </html>
