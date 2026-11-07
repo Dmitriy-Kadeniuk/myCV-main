@@ -6,13 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dmitriy Kadenyuk — Team Lead, PHP / Laravel / Statamic</title>
     <meta name="description"
-        content="Dmitriy Kadenyuk — Team Lead and full-stack PHP developer. Laravel, Statamic, WordPress, Vue. Running 24 production websites at Frozeneon.">
+        content="Dmitriy Kadenyuk — Team Lead and Senior Full-stack PHP Developer, 6 years of experience. Laravel, Statamic, WordPress, Vue. Leads 24 production websites at Frozeneon. Remote, Kharkiv, Ukraine.">
+    <link rel="canonical" href="https://dmitriy-kadeniuk.github.io/myCV-main/">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Dmitriy Kadenyuk",
+        "alternateName": ["Dmytro Kadeniuk", "Dmitriy Kadeniuk", "Flexx"],
+        "jobTitle": "Team Lead, Senior Full-stack PHP Developer",
+        "description": "Team Lead and full-stack PHP developer with 6 years of commercial experience in Laravel, Statamic and WordPress. Leads development of 24 production websites, mentors developers, designs architecture and owns deployment.",
+        "url": "https://dmitriy-kadeniuk.github.io/myCV-main/",
+        "image": "https://dmitriy-kadeniuk.github.io/myCV-main/assets/img/my1.jpg",
+        "email": "mailto:dimakadenuk2000@gmail.com",
+        "telephone": "+380685359128",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kharkiv",
+            "addressCountry": "UA"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Frozeneon"
+        },
+        "alumniOf": [
+            { "@type": "CollegeOrUniversity", "name": "Ukrainian State University of Railway Transport" },
+            { "@type": "EducationalOrganization", "name": "Kharkiv State Polytechnic College" }
+        ],
+        "knowsLanguage": ["uk", "ru", "en"],
+        "knowsAbout": [
+            "PHP", "Laravel", "Statamic", "WordPress", "WooCommerce", "Livewire", "Filament", "Vue.js", "Vite",
+            "Three.js", "MySQL", "REST API", "Docker", "Laravel Cloud", "Cloudflare", "AWS S3",
+            "Technical SEO", "Software architecture", "Code review", "Mentoring", "Team leadership",
+            "Claude Code", "Cursor", "Model Context Protocol"
+        ],
+        "sameAs": [
+            "https://www.linkedin.com/in/dmitriy-kadeniuk/",
+            "https://t.me/Amoterassu"
+        ]
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/style/css/main.css">
+    <script>
+        // Apply the saved theme (or the system one) before the first paint
+        (function () {
+            var t = null;
+            try { t = localStorage.getItem('theme'); } catch (e) {}
+            if (t !== 'light' && t !== 'dark') {
+                t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
 </head>
 
 <body>
@@ -26,10 +76,16 @@
                 <a href="#work">Work</a>
                 <a href="#contact">Contact</a>
             </nav>
-            <a class="btn btn--ink" href="dmitriy-kadeniuk_cv.pdf" download>
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14" /></svg>
-                PDF
-            </a>
+            <div class="topbar__right">
+                <button class="theme-toggle" type="button" aria-label="Switch to dark theme">
+                    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" /></svg>
+                    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></svg>
+                </button>
+                <a class="btn btn--ink" href="dmitriy-kadeniuk_cv.pdf" download>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14" /></svg>
+                    PDF
+                </a>
+            </div>
         </div>
     </header>
 
@@ -37,7 +93,9 @@
         <!-- HERO -->
         <section class="hero wrap">
             <div class="hero__text">
-                <p class="eyebrow"><span class="dot"></span>Team Lead at Frozeneon</p>
+                <p class="eyebrow"><span class="dot"></span>Team Lead at Frozeneon · Remote from Kharkiv, Ukraine</p>
+                <p class="tldr"><b>TL;DR</b> Team Lead / Senior Full-stack PHP Developer · 6 years · Laravel,
+                    Statamic, Vue · 24 production sites · mentoring &amp; architecture</p>
                 <h1 class="hero__title">
                     Hi, I'm Dmitriy.<br>
                     I build <em>fast, SEO-driven websites</em> and lead the people who build them with me.
@@ -52,6 +110,10 @@
                     <a class="btn btn--accent" href="https://t.me/Amoterassu" target="_blank" rel="noopener">
                         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z" /><path d="M22 2 11 13" /></svg>
                         Message on Telegram
+                    </a>
+                    <a class="btn btn--ghost" href="mailto:dimakadenuk2000@gmail.com">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 6L2 7" /></svg>
+                        Email
                     </a>
                     <a class="btn btn--ghost" href="https://www.linkedin.com/in/dmitriy-kadeniuk/" target="_blank" rel="noopener">
                         LinkedIn
@@ -134,15 +196,23 @@
                     </div>
                     <div class="job__body">
                         <h3>Frozeneon <span>Team Lead · Full-stack PHP Developer</span></h3>
-                        <p>I lead development of a portfolio of content and SEO websites in the CS2 / esports space,
-                            built on Statamic, Laravel and WordPress.</p>
+                        <p>I lead development of 24 content and SEO websites in the CS2 / esports space:
+                            14 on Statamic, 2 on Laravel and 8 on WordPress.</p>
+                        <h4 class="job__sub">How I lead</h4>
                         <ul>
-                            <li>Mentoring developers and doing code review for the team</li>
-                            <li>Designing web app architecture and choosing the tech stack for new projects</li>
-                            <li>Full-cycle development, frontend and backend, plus deployment</li>
-                            <li>Server environment setup, server data analysis, Cloudflare API and S3 integrations</li>
-                            <li>Working with external contractors and the SEO team on new product ideas</li>
-                            <li>Researching new integrations and automating repetitive workflows</li>
+                            <li><b>Team:</b> mentor developers (2 so far) and run code review</li>
+                            <li><b>Architecture:</b> design web app architecture and choose the stack for new projects</li>
+                            <li><b>Delivery:</b> own the full cycle, from frontend and backend to deployment and support</li>
+                            <li><b>Collaboration:</b> work with external contractors, DevOps and the SEO team on new products</li>
+                            <li><b>Process:</b> optimize workflows, automate routine tasks, bring AI tools into development</li>
+                        </ul>
+                        <h4 class="job__sub">Key results</h4>
+                        <ul>
+                            <li>Moved our sites to a new <b>Laravel Cloud</b> environment with predictable deploys</li>
+                            <li>Upgraded <b>all 24 sites</b> to current CMS versions and automated updates with Dependabot</li>
+                            <li><b>Eliminated user data loss on deploy</b> across all Laravel Cloud projects</li>
+                            <li>Built the multisite, multilingual <b>Hellcase blog</b> on Statamic end to end</li>
+                            <li>Delivered the <b>bestcs2cases.com</b> redesign; leading the Analyst blog move to Statamic</li>
                         </ul>
                     </div>
                 </li>
@@ -173,25 +243,15 @@
                     </div>
                 </li>
                 <li class="job">
-                    <div class="job__meta"><span class="job__date">04.2022 — 08.2022</span></div>
+                    <div class="job__meta"><span class="job__date">2021 — 08.2022</span></div>
                     <div class="job__body">
-                        <h3>DevOut Labs <span>PHP Developer</span></h3>
-                        <p>WordPress sites with ACF Pro and Contact Form 7, JS animations and fully editable
-                            content and menus for clients.</p>
-                    </div>
-                </li>
-                <li class="job">
-                    <div class="job__meta"><span class="job__date">01.2022 — 04.2022</span></div>
-                    <div class="job__body">
-                        <h3>Lion Internal <span>PHP Developer</span></h3>
-                        <p>Store payment system configuration, new site logic and pages, bug fixing on WooCommerce.</p>
-                    </div>
-                </li>
-                <li class="job">
-                    <div class="job__meta"><span class="job__date">2021 — 2022</span></div>
-                    <div class="job__body">
-                        <h3>Freelance, Upwork <span>Front-end / PHP Developer</span></h3>
-                        <p>My start: landing pages, stores and WordPress themes for clients worldwide.</p>
+                        <h3>Freelance &amp; contract work <span>PHP / Front-end Developer</span></h3>
+                        <p>Where I started: landing pages, online stores and WordPress themes for clients.</p>
+                        <ul>
+                            <li><b>Upwork clients:</b> landing pages, stores and custom WordPress themes</li>
+                            <li><b>DevOut Labs</b> (contract, 04–08.2022): WordPress sites with ACF Pro, editable content, JS animations</li>
+                            <li><b>Lion Internal</b> (contract, 01–04.2022): WooCommerce payments, new site logic, bug fixing</li>
+                        </ul>
                     </div>
                 </li>
             </ol>
@@ -208,8 +268,11 @@
                 <div class="stack__group">
                     <h3>Backend</h3>
                     <div class="chips">
-                        <span class="chip">PHP</span>
+                        <span class="chip">PHP 8</span>
                         <span class="chip">Laravel</span>
+                        <span class="chip">Eloquent ORM</span>
+                        <span class="chip">Blade</span>
+                        <span class="chip">MVC</span>
                         <span class="chip chip--new">Statamic</span>
                         <span class="chip chip--new">Statamic add-ons</span>
                         <span class="chip chip--new">Multisite / multilingual</span>
@@ -245,8 +308,9 @@
                         <span class="chip chip--new">Laravel Cloud</span>
                         <span class="chip">Docker</span>
                         <span class="chip chip--new">Cloudflare API</span>
-                        <span class="chip chip--new">S3 storage</span>
-                        <span class="chip chip--new">Dependabot</span>
+                        <span class="chip chip--new">AWS S3</span>
+                        <span class="chip chip--new">GitHub Dependabot</span>
+                        <span class="chip">Server setup &amp; deployment</span>
                         <span class="chip">Git / GitHub / Bitbucket</span>
                         <span class="chip chip--new">Blender</span>
                     </div>
@@ -260,6 +324,19 @@
                         <span class="chip chip--new">Gemini</span>
                         <span class="chip chip--new">MCP: Laravel Boost</span>
                         <span class="chip chip--new">MCP: Playwright</span>
+                    </div>
+                </div>
+                <div class="stack__group stack__group--wide">
+                    <h3>Leadership &amp; practices</h3>
+                    <div class="chips">
+                        <span class="chip chip--new">Team leadership</span>
+                        <span class="chip chip--new">Mentoring</span>
+                        <span class="chip chip--new">Code review</span>
+                        <span class="chip chip--new">Software architecture</span>
+                        <span class="chip chip--new">Tech stack selection</span>
+                        <span class="chip">Technical SEO</span>
+                        <span class="chip">Performance optimization</span>
+                        <span class="chip chip--new">Workflow automation</span>
                     </div>
                 </div>
             </div>
@@ -406,7 +483,12 @@
             <div class="wrap contact__inner">
                 <p class="label label--light">06 / Contact</p>
                 <h2 class="contact__title">Let's build <em>something</em> together.</h2>
+                <p class="contact__note">Working remotely from Kharkiv, Ukraine. Open to remote roles.</p>
                 <div class="contact__links">
+                    <a href="mailto:dimakadenuk2000@gmail.com">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 6L2 7" /></svg>
+                        dimakadenuk2000@gmail.com
+                    </a>
                     <a href="https://t.me/Amoterassu" target="_blank" rel="noopener">
                         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z" /><path d="M22 2 11 13" /></svg>
                         @Amoterassu
@@ -431,6 +513,23 @@
             </div>
         </section>
     </main>
+    <script>
+        (function () {
+            var root = document.documentElement;
+            var btn = document.querySelector('.theme-toggle');
+            function sync() {
+                var dark = root.getAttribute('data-theme') === 'dark';
+                btn.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+            }
+            sync();
+            btn.addEventListener('click', function () {
+                var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                root.setAttribute('data-theme', next);
+                try { localStorage.setItem('theme', next); } catch (e) {}
+                sync();
+            });
+        })();
+    </script>
 </body>
 
 </html>

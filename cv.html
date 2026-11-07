@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Dmitriy Kadenyuk - CV</title>
+    <!-- Source for dmitriy-kadeniuk_cv.pdf: one column, plain text, standard section names (ATS / AI friendly) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        @page { size: A4; margin: 13mm 14mm 12mm; }
+
+        :root {
+            --ink: #17150f;
+            --ink-2: #3b372e;
+            --muted: #6f695d;
+            --line: #e2dccf;
+            --accent: #d9481f;
+            --soft: #faf3ec;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html { background: #e9e6df; }
+
+        body {
+            font-family: "Inter", Arial, Helvetica, sans-serif;
+            font-size: 10pt;
+            line-height: 1.45;
+            color: var(--ink);
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 24px auto;
+            padding: 13mm 14mm 12mm;
+            background: #fff;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, .12);
+        }
+
+        a { color: inherit; text-decoration: none; }
+        ul { list-style: none; }
+
+        /* Header */
+        /* No position:relative/absolute anywhere: Chrome emits positioned layers out of reading order in PDFs */
+        header { padding-bottom: 5mm; border-bottom: 2pt solid var(--ink); display: flow-root; }
+        h1 { font-size: 24pt; line-height: 1.1; font-weight: 700; }
+        .title { font-size: 12pt; font-weight: 600; color: var(--accent); margin-top: 3pt; }
+        .contacts { margin-top: 7pt; font-size: 9pt; color: var(--ink-2); }
+        .contacts span { white-space: nowrap; }
+        .contacts i { font-style: normal; color: #c9c1b1; margin: 0 4pt; }
+        .photo {
+            float: right; margin-left: 8mm;
+            width: 25mm; height: 25mm; border-radius: 50%;
+            object-fit: cover; object-position: center 25%;
+            border: 1.5pt solid var(--ink);
+        }
+
+        /* Sections */
+        section { margin-top: 5.5mm; }
+        h2 {
+            font-size: 10pt; font-weight: 700; text-transform: uppercase;
+            color: var(--accent); padding-bottom: 3pt; margin-bottom: 6pt;
+            border-bottom: 0.75pt solid var(--line);
+            break-after: avoid;
+        }
+        p { color: var(--ink-2); }
+
+        .summary { font-size: 10.5pt; color: var(--ink); }
+
+        /* Highlight strip */
+        .highlights { display: flex; gap: 6pt; margin-top: 7pt; }
+        .highlights li {
+            flex: 1; background: var(--soft); border-left: 2.5pt solid var(--accent);
+            padding: 5pt 7pt; font-size: 8.5pt; color: var(--ink-2); line-height: 1.3;
+        }
+        .highlights b { display: block; font-size: 13pt; color: var(--ink); line-height: 1.15; }
+
+        /* Bullets */
+        .bullets { list-style: disc; padding-left: 12pt; }
+        .bullets li { margin-top: 2.5pt; color: var(--ink-2); padding-left: 1pt; }
+        .bullets li::marker { color: var(--accent); }
+        .bullets b { color: var(--ink); font-weight: 600; }
+
+        /* Jobs */
+        .job { margin-top: 8pt; break-inside: avoid; }
+        .job:first-of-type { margin-top: 0; }
+        .job__head { display: flex; justify-content: space-between; align-items: baseline; gap: 10pt; }
+        .job h3 { font-size: 11pt; font-weight: 700; }
+        .job h3 .role { font-weight: 500; color: var(--ink-2); }
+        .job__date { font-size: 9pt; color: var(--muted); white-space: nowrap; }
+        .job > p { margin-top: 2pt; }
+        .sub { font-size: 9pt; font-weight: 700; text-transform: uppercase; color: var(--muted); margin-top: 6pt; }
+
+        /* Skills */
+        .skills li { margin-top: 3pt; color: var(--ink-2); }
+        .skills b { color: var(--ink); font-weight: 600; }
+
+        /* Two small columns at the end: each column is a complete block, so reading order stays intact */
+        .cols { display: flex; gap: 10mm; }
+        .cols > section { flex: 1; }
+        .edu li { margin-top: 4pt; color: var(--ink-2); }
+        .edu b { display: block; color: var(--ink); font-weight: 600; }
+
+        .projects { color: var(--ink-2); }
+        .projects a { color: var(--ink); font-weight: 500; }
+
+        @media print {
+            html { background: #fff; }
+            .page { width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <img class="photo" src="assets/img/my1.jpg" alt="">
+            <h1>Dmitriy Kadenyuk</h1>
+            <div class="title">Team Lead | Senior Full-stack PHP Developer (Laravel, Statamic, Vue)</div>
+            <div class="contacts">
+                <span><a href="mailto:dimakadenuk2000@gmail.com">dimakadenuk2000@gmail.com</a></span> <i>|</i>
+                <span><a href="tel:+380685359128">+380 68 535 91 28</a></span> <i>|</i>
+                <span><a href="https://t.me/Amoterassu">Telegram: @Amoterassu</a></span>
+                <br>
+                <span>Kharkiv, Ukraine (Remote)</span> <i>|</i>
+                <span><a href="https://www.linkedin.com/in/dmitriy-kadeniuk/">linkedin.com/in/dmitriy-kadeniuk</a></span>
+                <br>
+                <span><a href="https://dmitriy-kadeniuk.github.io/myCV-main/">Portfolio: dmitriy-kadeniuk.github.io/myCV-main</a></span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Summary</h2>
+            <p class="summary">
+                Team Lead and full-stack PHP developer with 6 years of commercial experience in Laravel, Statamic and
+                WordPress. I lead development of a portfolio of 24 production websites: I design the architecture,
+                choose the tech stack, own deployment on Laravel Cloud, review code and mentor developers. Strong in
+                SEO-driven content sites, multisite and multilingual setups, and automating developer workflows with
+                AI tools. Working remotely from Kharkiv, Ukraine.
+            </p>
+            <ul class="highlights">
+                <li><b>6 years</b>commercial PHP development</li>
+                <li><b>24 sites</b>in production under my lead</li>
+                <li><b>3 CMS</b>Statamic, Laravel, WordPress</li>
+                <li><b>2 developers</b>mentored</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+
+            <div class="job">
+                <div class="job__head">
+                    <h3>Frozeneon <span class="role">- Team Lead / Full-stack PHP Developer</span></h3>
+                    <span class="job__date">11.2025 - Present | Remote</span>
+                </div>
+                <p>Lead development of 24 content and SEO websites in the CS2 / esports niche: 14 on Statamic, 2 on
+                    Laravel, 8 on WordPress.</p>
+
+                <div class="sub">Leadership</div>
+                <ul class="bullets">
+                    <li><b>Team:</b> mentor developers (2 so far) and run code review for the team.</li>
+                    <li><b>Architecture:</b> design web application architecture and choose the tech stack for new projects.</li>
+                    <li><b>Delivery:</b> own the full cycle from frontend and backend to deployment and production support.</li>
+                    <li><b>Collaboration:</b> work with external contractors, DevOps and the SEO team; take an active part in planning new products.</li>
+                    <li><b>Process:</b> optimize team workflows, automate routine tasks and bring AI tools into the development cycle.</li>
+                </ul>
+
+                <div class="sub">Key results</div>
+                <ul class="bullets">
+                    <li>Set up a new server environment on <b>Laravel Cloud</b> and moved the sites onto it with a predictable deployment flow.</li>
+                    <li>Upgraded <b>all 24 sites</b> to the latest CMS and add-on versions; set up <b>GitHub Dependabot</b> so dependency updates now arrive automatically.</li>
+                    <li><b>Eliminated user data loss on deploy</b> across all Laravel Cloud projects by moving user data to persistent storage.</li>
+                    <li>Built the <b>Hellcase blog</b> on Statamic (multisite, multilingual) end to end and delivered it to staging for release.</li>
+                    <li>Delivered the redesign of <b>bestcs2cases.com</b>; leading the migration of the Analyst blog from WordPress to Statamic.</li>
+                    <li>Brought <b>Claude Code, Cursor and MCP</b> (Laravel Boost, Playwright) into daily development.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job__head">
+                    <h3>OutSoft <span class="role">- PHP Developer</span></h3>
+                    <span class="job__date">08.2024 - 10.2025</span>
+                </div>
+                <ul class="bullets">
+                    <li>Built Laravel web applications: MySQL database design, migrations, seeders, Eloquent models, Blade views, MVC architecture.</li>
+                    <li>Developed WordPress and WooCommerce projects for agency clients: online stores, landing pages, custom themes from scratch.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job__head">
+                    <h3>Remote Helpers <span class="role">- PHP Developer</span></h3>
+                    <span class="job__date">02.2023 - 08.2024</span>
+                </div>
+                <ul class="bullets">
+                    <li>Developed and customized WordPress and WooCommerce sites, custom themes and plugins (ACF, WPML, Polylang, Elementor).</li>
+                    <li>Started commercial Laravel development: migrations, seeders, Eloquent, Blade.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job__head">
+                    <h3>Onix Systems <span class="role">- PHP Developer</span></h3>
+                    <span class="job__date">09.2022 - 02.2023</span>
+                </div>
+                <ul class="bullets">
+                    <li>Built landing pages, online stores and multi-page WordPress sites; extended plugin functionality and custom WooCommerce solutions.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job__head">
+                    <h3>Freelance &amp; Contract Work <span class="role">- PHP / Front-end Developer</span></h3>
+                    <span class="job__date">2021 - 08.2022</span>
+                </div>
+                <ul class="bullets">
+                    <li><b>Upwork clients:</b> landing pages, online stores and custom WordPress themes.</li>
+                    <li><b>DevOut Labs (contract, 04.2022 - 08.2022):</b> WordPress sites with ACF Pro, fully editable content and JS animations.</li>
+                    <li><b>Lion Internal (contract, 01.2022 - 04.2022):</b> WooCommerce payment configuration, new site logic and bug fixing.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li><b>Backend:</b> PHP 8, Laravel, Statamic (add-ons, multisite, multilingual), Livewire, Filament, Eloquent ORM, Blade, REST API, MVC, MySQL, WordPress, WooCommerce, ACF, WPML, Polylang</li>
+                <li><b>Frontend:</b> JavaScript, Vue 3, Vite, Three.js / WebGL, HTML5, CSS3, SCSS, Gulp, jQuery, Bootstrap, Figma</li>
+                <li><b>Infrastructure &amp; DevOps:</b> Laravel Cloud, Docker, Cloudflare API, AWS S3, Git, GitHub, Bitbucket, GitHub Dependabot, deployment, server environment setup</li>
+                <li><b>AI tools:</b> Claude Code, Cursor, Cline, Google Gemini, Model Context Protocol (MCP): Laravel Boost, Playwright</li>
+                <li><b>Leadership &amp; practices:</b> team leadership, mentoring, code review, software architecture, tech stack selection, technical SEO, performance optimization, workflow automation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Selected Projects</h2>
+            <p class="projects">
+                <a href="https://bestcs2cases.com/">bestcs2cases.com</a>,
+                <a href="https://cs2roi.com/">cs2roi.com</a> (Laravel),
+                <a href="https://csgocasesimulator.com/">csgocasesimulator.com</a>,
+                <a href="https://cs2crosshair.com/">cs2crosshair.com</a>,
+                <a href="https://giveaway-hub.com/">giveaway-hub.com</a>,
+                <a href="https://hellcasepromos.com/">hellcasepromos.com</a>,
+                <a href="https://cs2-markets.com/">cs2-markets.com</a>,
+                <a href="https://cs2platforms.com/">cs2platforms.com</a>,
+                <a href="https://cs2tradeup.com/">cs2tradeup.com</a>,
+                <a href="https://esportreviews.com/">esportreviews.com</a>,
+                <a href="https://opencaseinfo.com/">opencaseinfo.com</a>,
+                <a href="https://topcs2markets.com/">topcs2markets.com</a>.
+                All on Statamic unless noted. Screenshots and earlier client work are in the portfolio.
+            </p>
+        </section>
+
+        <div class="cols">
+            <section>
+                <h2>Education</h2>
+                <ul class="edu">
+                    <li><b>Ukrainian State University of Railway Transport</b>Automation, computer-integrated technologies and robotics, IT specialist, 2023 - 2025</li>
+                    <li><b>Ukrainian State University of Railway Transport</b>Information-control systems and technologies, Engineer, 2020 - 2023</li>
+                    <li><b>Kharkiv State Polytechnic College</b>Automated motion control systems, Electrician, 2016 - 2020</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Languages</h2>
+                <ul class="edu">
+                    <li><b>Ukrainian</b>Native (C2)</li>
+                    <li><b>Russian</b>Native (C2)</li>
+                    <li><b>English</b>Intermediate (B1)</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
