@@ -1,0 +1,6 @@
+# Local secrets - never commit (the repo is public via GitHub Pages)
+.env
+.env.*
+
+# Playwright MCP scratch output
+.playwright-mcp/
